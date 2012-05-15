@@ -5,4 +5,6 @@
 \contentsline {paragraph}{Scytale}{3}
 \contentsline {paragraph}{Caesar methode}{3}
 \contentsline {subsection}{\numberline {2.2}Wat is GPG?}{4}
-\contentsline {section}{\numberline {3}Belangrijke woorden}{4}
+\contentsline {subsection}{\numberline {2.3}Frontend GPG programma's}{4}
+\contentsline {paragraph}{Cryptophane}{4}
+\contentsline {section}{\numberline {3}Belangrijke woorden}{5}
