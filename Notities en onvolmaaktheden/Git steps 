@@ -1,0 +1,9 @@
+touch <file>						
+
+git add <file>
+
+git commit -m 'message'
+
+git pull git@github.com:RPGglitchy/GPG-Linux.git	(only once)
+
+git push -u origin master
