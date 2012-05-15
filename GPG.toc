@@ -1,5 +1,4 @@
-\contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {paragraph}{Outline}{1}
-\contentsline {section}{\numberline {2}Previous work}{1}
-\contentsline {section}{\numberline {3}Results}{1}
-\contentsline {section}{\numberline {4}Conclusions}{2}
+\contentsline {section}{\numberline {1}Introductie}{3}
+\contentsline {paragraph}{Benadering}{3}
+\contentsline {section}{\numberline {2}GPG}{3}
+\contentsline {section}{\numberline {3}Belangrijke woorden}{3}

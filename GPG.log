@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  15 MAY 2012 20:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  15 MAY 2012 22:03
 entering extended mode
  %&-line parsing enabled.
 **GPG.tex
@@ -41,41 +41,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
+ [1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GPG.toc)
+\tf@toc=\write3
+\openout3 = `GPG.toc'.
 
-LaTeX Warning: Citation `Gil:02' on page 1 undefined on input line 26.
-
+ [2]
 No file GPG.bbl.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GPG.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[3] (./GPG.aux) ) 
 Here is how much of TeX's memory you used:
- 242 strings out of 495061
- 2577 string characters out of 1182621
- 48105 words of memory out of 3000000
- 3493 multiletter control sequences out of 15000+50000
- 9109 words of font info for 32 fonts, out of 3000000 for 9000
+ 222 strings out of 495061
+ 2338 string characters out of 1182621
+ 47105 words of memory out of 3000000
+ 3477 multiletter control sequences out of 15000+50000
+ 6063 words of font info for 22 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 22i,6n,19p,134b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on GPG.pdf (1 page, 78048 bytes).
+ 22i,6n,19p,147b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on GPG.pdf (3 pages, 40466 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
