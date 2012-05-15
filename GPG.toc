@@ -1,4 +1,8 @@
 \contentsline {section}{\numberline {1}Introductie}{3}
 \contentsline {paragraph}{Benadering}{3}
 \contentsline {section}{\numberline {2}GPG}{3}
-\contentsline {section}{\numberline {3}Belangrijke woorden}{3}
+\contentsline {subsection}{\numberline {2.1}Geschiedenis}{3}
+\contentsline {paragraph}{Scytale}{3}
+\contentsline {paragraph}{Caesar methode}{3}
+\contentsline {subsection}{\numberline {2.2}Wat is GPG?}{4}
+\contentsline {section}{\numberline {3}Belangrijke woorden}{4}
