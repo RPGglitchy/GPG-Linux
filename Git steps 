@@ -1,0 +1,9 @@
+(touch)
+
+git add
+
+git commit -m ''
+
+git pull git@github.com:RPGglitchy/GPG-Linux.git
+
+git push -u origin master
