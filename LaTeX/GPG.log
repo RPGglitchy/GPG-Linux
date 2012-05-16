@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  16 MAY 2012 15:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  16 MAY 2012 16:13
 entering extended mode
  %&-line parsing enabled.
 **GPG.tex
@@ -22,6 +22,9 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -61,18 +64,18 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ) (./GPG.aux)
 \openout1 = `GPG.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -88,9 +91,9 @@ LaTeX Font Info:    ... okay on input line 20.
 \everyMPtoPDFconversion=\toks16
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 21.
+(Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 21.
+(Font)              <7> on input line 22.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GPG.toc
@@ -104,6 +107,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `GPG.toc'.
 
+ (./GPG.lof)
+\tf@lof=\write4
+\openout4 = `GPG.lof'.
+
+ (./GPG.lot)
+\tf@lot=\write5
+\openout5 = `GPG.lot'.
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -112,35 +123,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2] [3]
-Overfull \hbox (2.11537pt too wide) in paragraph at lines 45--51
+Overfull \hbox (2.11537pt too wide) in paragraph at lines 48--54
 \OT1/cmr/m/n/12 Maar na het schri-jven van de nodige bood-schap, wordt er een '
 sleu-tel' gekozen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
+Underfull \hbox (badness 10000) in paragraph at lines 48--54
 
  []
 
 
-Overfull \hbox (21.91609pt too wide) in paragraph at lines 53--57
+Overfull \hbox (21.91609pt too wide) in paragraph at lines 56--60
 []\OT1/cmr/m/n/12 Tegenwoordig wor-den loopjon-gens niet meer ge-bruikt. Men is
  mee geevolueerd
  []
 
 [4]
-Overfull \hbox (18.39609pt too wide) in paragraph at lines 65--74
+Overfull \hbox (15.13223pt too wide) in paragraph at lines 72--81
  [] 
  []
 
 
-Overfull \hbox (17.77019pt too wide) in paragraph at lines 77--78
+Underfull \hbox (badness 1168) in paragraph at lines 87--88
  \OT1/cmr/bx/n/12 Cryp-to-phane[] \OT1/cmr/m/n/12 Deze wordt ge-bruikt om te en
--crypteren, de-crypteren, handteke-
+-crypteren, de-crypteren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
@@ -151,56 +162,58 @@ File: Pictures/cryptophane.jpg Graphic file (type jpg)
 <Pictures/gajim.jpeg, id=18, 753.81625pt x 501.875pt>
 File: Pictures/gajim.jpeg Graphic file (type jpg)
 
-<use Pictures/gajim.jpeg> [5 <./Pictures/cryptophane.jpg>]
-<Pictures/gpgshell.png, id=22, 495.12639pt x 392.1032pt>
+<use Pictures/gajim.jpeg>
+<Pictures/gpgshell.png, id=19, 495.12639pt x 392.1032pt>
 File: Pictures/gpgshell.png Graphic file (type png)
 
 <use Pictures/gpgshell.png>
-Overfull \hbox (10.7636pt too wide) in paragraph at lines 96--97
+Underfull \hbox (badness 6542) in paragraph at lines 115--116
  \OT1/cmr/bx/n/12 GPA[] \OT1/cmr/m/n/12 GPA probeert de stan-daard fron-tend te
- zijn voor GPG. $\OML/cmm/m/it/12 www:gnupg:org$
+ zijn voor GPG.
  []
 
-<Pictures/GPA.png, id=23, 376.40625pt x 261.97874pt>
+<Pictures/GPA.png, id=20, 376.40625pt x 261.97874pt>
 File: Pictures/GPA.png Graphic file (type png)
  <use Pictures/GPA.png>
-[6 <./Pictures/gajim.jpeg> <./Pictures/gpgshell.png (PNG copy)>]
-<Pictures/kgpg.png, id=29, 909.3975pt x 597.23125pt>
+<Pictures/kgpg.png, id=21, 909.3975pt x 597.23125pt>
 File: Pictures/kgpg.png Graphic file (type png)
  <use Pictures/kgpg.png>
-<Pictures/Seahorse.jpg, id=31, 508.94366pt x 415.29803pt>
+<Pictures/Seahorse.jpg, id=23, 508.94366pt x 415.29803pt>
 File: Pictures/Seahorse.jpg Graphic file (type jpg)
 
-<use Pictures/Seahorse.jpg> [7 <./Pictures/GPA.png (PNG copy)> <./Pictures/kgpg
-.png>] <Pictures/wija.png, id=37, 382.42876pt x 270.00874pt>
+<use Pictures/Seahorse.jpg>
+<Pictures/wija.png, id=24, 382.42876pt x 270.00874pt>
 File: Pictures/wija.png Graphic file (type png)
+ <use Pictures/wija.png>
+[5] [6 <./Pictures/cryptophane.jpg> <./Pictures/gajim.jpeg>] [7 <./Pictures/gpg
+shell.png (PNG copy)> <./Pictures/GPA.png (PNG copy)>] [8 <./Pictures/kgpg.png>
+] [9 <./Pictures/Seahorse.jpg>] [10 <./Pictures/wija.png (PNG copy)>] [11
 
-<use Pictures/wija.png> [8 <./Pictures/Seahorse.jpg> <./Pictures/wija.png (PNG 
-copy)>] [9]
-Overfull \hbox (129.94424pt too wide) in paragraph at lines 133--138
+]
+Overfull \hbox (129.94424pt too wide) in paragraph at lines 167--172
 \OML/cmm/m/it/12 http \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==www:google:be$ $http
  \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==utils:kde:org=projects=kgpg=$ $http \OT1/
 cmr/m/n/12 : \OML/cmm/m/it/12 ==projects:gnome:org=seahorse=$ 
  []
 
 No file GPG.bbl.
-[10] (./GPG.aux) ) 
+[12] (./GPG.aux) ) 
 Here is how much of TeX's memory you used:
- 1088 strings out of 495061
- 13477 string characters out of 1182621
- 64360 words of memory out of 3000000
- 4295 multiletter control sequences out of 15000+50000
+ 1113 strings out of 495061
+ 13843 string characters out of 1182621
+ 67505 words of memory out of 3000000
+ 4310 multiletter control sequences out of 15000+50000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,10n,43p,326b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,10n,43p,346b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
 r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texm
 f-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fo
 nts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on GPG.pdf (10 pages, 474218 bytes).
+Output written on GPG.pdf (12 pages, 476444 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,13 +5,14 @@
 \contentsline {paragraph}{Scytale}{4}
 \contentsline {paragraph}{Caesar methode}{4}
 \contentsline {subsection}{\numberline {2.2}Wat is GPG?}{5}
-\contentsline {subsection}{\numberline {2.3}Frontend GPG programma's}{5}
-\contentsline {paragraph}{Cryptophane}{5}
-\contentsline {paragraph}{Gajim}{5}
-\contentsline {paragraph}{GPGshell}{6}
-\contentsline {paragraph}{GPA}{6}
-\contentsline {paragraph}{KGpg}{7}
-\contentsline {paragraph}{Seahorse}{7}
-\contentsline {paragraph}{Wija}{8}
-\contentsline {section}{\numberline {3}Belangrijke woorden}{9}
-\contentsline {section}{\numberline {4}Referenties}{10}
+\contentsline {subsection}{\numberline {2.3}GPG in command-line interface (CLI)}{5}
+\contentsline {subsection}{\numberline {2.4}Frontend GPG programma's}{5}
+\contentsline {paragraph}{Cryptophane}{6}
+\contentsline {paragraph}{Gajim}{6}
+\contentsline {paragraph}{GPGshell}{7}
+\contentsline {paragraph}{GPA}{7}
+\contentsline {paragraph}{KGpg}{8}
+\contentsline {paragraph}{Seahorse}{9}
+\contentsline {paragraph}{Wija}{10}
+\contentsline {section}{\numberline {3}Belangrijke woorden}{11}
+\contentsline {section}{\numberline {4}Referenties}{12}
