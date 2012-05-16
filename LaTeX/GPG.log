@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  16 MAY 2012 01:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  16 MAY 2012 15:04
 entering extended mode
  %&-line parsing enabled.
 **GPG.tex
@@ -111,52 +111,96 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
-Overfull \hbox (2.11537pt too wide) in paragraph at lines 44--50
+[2] [3]
+Overfull \hbox (2.11537pt too wide) in paragraph at lines 45--51
 \OT1/cmr/m/n/12 Maar na het schri-jven van de nodige bood-schap, wordt er een '
 sleu-tel' gekozen.
  []
 
-[3]
-Overfull \hbox (18.39609pt too wide) in paragraph at lines 57--67
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--51
+
+ []
+
+
+Overfull \hbox (21.91609pt too wide) in paragraph at lines 53--57
+[]\OT1/cmr/m/n/12 Tegenwoordig wor-den loopjon-gens niet meer ge-bruikt. Men is
+ mee geevolueerd
+ []
+
+[4]
+Overfull \hbox (18.39609pt too wide) in paragraph at lines 65--74
  [] 
  []
 
 
-Overfull \hbox (17.77019pt too wide) in paragraph at lines 70--71
+Overfull \hbox (17.77019pt too wide) in paragraph at lines 77--78
  \OT1/cmr/bx/n/12 Cryp-to-phane[] \OT1/cmr/m/n/12 Deze wordt ge-bruikt om te en
 -crypteren, de-crypteren, handteke-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<Pictures/cryptophane.jpg, id=14, 478.78876pt x 198.7425pt>
+<Pictures/cryptophane.jpg, id=17, 478.78876pt x 198.7425pt>
 File: Pictures/cryptophane.jpg Graphic file (type jpg)
 
 <use Pictures/cryptophane.jpg>
+<Pictures/gajim.jpeg, id=18, 753.81625pt x 501.875pt>
+File: Pictures/gajim.jpeg Graphic file (type jpg)
+
+<use Pictures/gajim.jpeg> [5 <./Pictures/cryptophane.jpg>]
+<Pictures/gpgshell.png, id=22, 495.12639pt x 392.1032pt>
+File: Pictures/gpgshell.png Graphic file (type png)
+
+<use Pictures/gpgshell.png>
+Overfull \hbox (10.7636pt too wide) in paragraph at lines 96--97
+ \OT1/cmr/bx/n/12 GPA[] \OT1/cmr/m/n/12 GPA probeert de stan-daard fron-tend te
+ zijn voor GPG. $\OML/cmm/m/it/12 www:gnupg:org$
+ []
+
+<Pictures/GPA.png, id=23, 376.40625pt x 261.97874pt>
+File: Pictures/GPA.png Graphic file (type png)
+ <use Pictures/GPA.png>
+[6 <./Pictures/gajim.jpeg> <./Pictures/gpgshell.png (PNG copy)>]
+<Pictures/kgpg.png, id=29, 909.3975pt x 597.23125pt>
+File: Pictures/kgpg.png Graphic file (type png)
+ <use Pictures/kgpg.png>
+<Pictures/Seahorse.jpg, id=31, 508.94366pt x 415.29803pt>
+File: Pictures/Seahorse.jpg Graphic file (type jpg)
+
+<use Pictures/Seahorse.jpg> [7 <./Pictures/GPA.png (PNG copy)> <./Pictures/kgpg
+.png>] <Pictures/wija.png, id=37, 382.42876pt x 270.00874pt>
+File: Pictures/wija.png Graphic file (type png)
+
+<use Pictures/wija.png> [8 <./Pictures/Seahorse.jpg> <./Pictures/wija.png (PNG 
+copy)>] [9]
+Overfull \hbox (129.94424pt too wide) in paragraph at lines 133--138
+\OML/cmm/m/it/12 http \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==www:google:be$ $http
+ \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==utils:kde:org=projects=kgpg=$ $http \OT1/
+cmr/m/n/12 : \OML/cmm/m/it/12 ==projects:gnome:org=seahorse=$ 
+ []
+
 No file GPG.bbl.
-[4 <./Pictures/cryptophane.jpg>] [5] (./GPG.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[10] (./GPG.aux) ) 
 Here is how much of TeX's memory you used:
- 1055 strings out of 495061
- 12841 string characters out of 1182621
- 64351 words of memory out of 3000000
- 4270 multiletter control sequences out of 15000+50000
+ 1088 strings out of 495061
+ 13477 string characters out of 1182621
+ 64360 words of memory out of 3000000
+ 4295 multiletter control sequences out of 15000+50000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,10n,43p,326b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on GPG.pdf (5 pages, 64740 bytes).
+ 25i,10n,43p,326b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on GPG.pdf (10 pages, 474218 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
