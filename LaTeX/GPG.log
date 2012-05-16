@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  16 MAY 2012 21:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  16 MAY 2012 21:44
 entering extended mode
  %&-line parsing enabled.
 **GPG.tex
@@ -154,101 +154,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
-
-Overfull \hbox (32.32971pt too wide) in paragraph at lines 76--84
+[5]
+Overfull \hbox (32.32971pt too wide) in paragraph at lines 77--85
 [] 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<Pictures/terminal.png, id=22, 714.67pt x 341.275pt>
+<Pictures/terminal.png, id=26, 714.67pt x 341.275pt>
 File: Pictures/terminal.png Graphic file (type png)
 
-<use Pictures/terminal.png>
-Overfull \hbox (15.13223pt too wide) in paragraph at lines 124--133
+<use Pictures/terminal.png> [7 <./Pictures/terminal.png (PNG copy)>]
+Overfull \hbox (15.13223pt too wide) in paragraph at lines 127--136
  [] 
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 139--140
+Underfull \hbox (badness 1168) in paragraph at lines 142--143
  \OT1/cmr/bx/n/12 Cryp-to-phane[] \OT1/cmr/m/n/12 Deze wordt ge-bruikt om te en
 -crypteren, de-crypteren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<Pictures/cryptophane.jpg, id=23, 478.78876pt x 198.7425pt>
+<Pictures/cryptophane.jpg, id=31, 478.78876pt x 198.7425pt>
 File: Pictures/cryptophane.jpg Graphic file (type jpg)
 
 <use Pictures/cryptophane.jpg>
-<Pictures/gajim.jpeg, id=24, 753.81625pt x 501.875pt>
+<Pictures/gajim.jpeg, id=32, 753.81625pt x 501.875pt>
 File: Pictures/gajim.jpeg Graphic file (type jpg)
 
 <use Pictures/gajim.jpeg>
-<Pictures/gpgshell.png, id=25, 495.12639pt x 392.1032pt>
+<Pictures/gpgshell.png, id=33, 495.12639pt x 392.1032pt>
 File: Pictures/gpgshell.png Graphic file (type png)
 
 <use Pictures/gpgshell.png>
-Underfull \hbox (badness 6542) in paragraph at lines 167--168
+Underfull \hbox (badness 6542) in paragraph at lines 170--171
  \OT1/cmr/bx/n/12 GPA[] \OT1/cmr/m/n/12 GPA probeert de stan-daard fron-tend te
  zijn voor GPG.
  []
 
-<Pictures/GPA.png, id=26, 376.40625pt x 261.97874pt>
+<Pictures/GPA.png, id=34, 376.40625pt x 261.97874pt>
 File: Pictures/GPA.png Graphic file (type png)
  <use Pictures/GPA.png>
-<Pictures/kgpg.png, id=27, 909.3975pt x 597.23125pt>
+<Pictures/kgpg.png, id=35, 909.3975pt x 597.23125pt>
 File: Pictures/kgpg.png Graphic file (type png)
  <use Pictures/kgpg.png>
-<Pictures/Seahorse.jpg, id=29, 508.94366pt x 415.29803pt>
+<Pictures/Seahorse.jpg, id=37, 508.94366pt x 415.29803pt>
 File: Pictures/Seahorse.jpg Graphic file (type jpg)
 
 <use Pictures/Seahorse.jpg>
-<Pictures/wija.png, id=30, 382.42876pt x 270.00874pt>
+<Pictures/wija.png, id=38, 382.42876pt x 270.00874pt>
 File: Pictures/wija.png Graphic file (type png)
  <use Pictures/wija.png>
-[6 <./Pictures/terminal.png (PNG copy)>] [7 <./Pictures/cryptophane.jpg>]
-[8 <./Pictures/gajim.jpeg> <./Pictures/gpgshell.png (PNG copy)>] [9 <./Pictures
-/GPA.png (PNG copy)> <./Pictures/kgpg.png>] [10 <./Pictures/Seahorse.jpg>]
-[11 <./Pictures/wija.png (PNG copy)>] [12
+[8 <./Pictures/cryptophane.jpg>] [9 <./Pictures/gajim.jpeg> <./Pictures/gpgshel
+l.png (PNG copy)>] [10 <./Pictures/GPA.png (PNG copy)> <./Pictures/kgpg.png>]
+[11 <./Pictures/Seahorse.jpg>] [12 <./Pictures/wija.png (PNG copy)>] [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 220--226
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
 
  []
 
 
-LaTeX Warning: Citation `Chari01' on page 13 undefined on input line 227.
+LaTeX Warning: Citation `Chari01' on page 14 undefined on input line 230.
 
 No file GPG.bbl.
-[13] (./GPG.aux)
+[14] (./GPG.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  1213 strings out of 495061
  15094 string characters out of 1182621
- 69418 words of memory out of 3000000
+ 67418 words of memory out of 3000000
  4406 multiletter control sequences out of 15000+50000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,10n,43p,346b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,10n,43p,346b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on GPG.pdf (13 pages, 556882 bytes).
+Output written on GPG.pdf (14 pages, 557369 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
