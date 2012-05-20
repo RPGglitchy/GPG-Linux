@@ -57,6 +57,8 @@
 				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee-geevolueerd naar de 						toekomst.\\
 				Technology is nu de heerser over het verzenden van boodschappen.
 				Mailen, accounts aanmaken, bestanden opslaan, enz... Gebeurt iedere dag. Dit moet dan 					ook beveiligd worden.\\
+				Dit doen we aan de hand van het encrypteren van de bestanden, handtekenen van mails,
+				enz...
 				Een manier voor encryptie is GPG.
 
 			\newpage
@@ -76,37 +78,38 @@
 				\subsubsection{Voorbeelden van vaak gebruikte commando's}\label{com}
 					\begin{table}[!ht]
 						\begin{tabular}{l|l}
-								$-c$				&	symmetrische encryptie, vraagt voor 																	passphrase.\\
-								$--decrypt$			&	decryptie van geincrypteerde bestanden.\\
+								$-c$				&	Symmetrische encryptie, vraagt voor 																	passphrase.\\
+								$--decrypt$			&	Decryptie van geincrypteerde bestanden.\\
 								$--encrypt$			&	Encryptie van data. Wordt gecombineerd met -															sign.\\
-								$-sign$				&	maakt handtekening, wordt gecombineerd met --															encrypt.\\
-								$--encrypt-files$	&	encryptie van meerdere bestanden in 1 																	commando.\\
-								$--decrypt-files$	&	decryptie van meerdere bestanden in 1 																	commando.\\
+								$-sign$				&	Maakt handtekening, wordt gecombineerd met --															encrypt.\\
+								$--encrypt-files$	&	Encryptie van meerdere bestanden in 1 																	commando.\\
+								$--decrypt-files$	&	Decryptie van meerdere bestanden in 1 																	commando.\\
 						\end{tabular}
 						\caption{vaak gebruikte commando's}						
 					
 				\subsubsection{Voorbeelden van vaak gebruikte opties}\label{opt}					
 						\begin{tabular}{l|l}
-								$-o file$				&	schrijft output naar 'file'.\\
-								$--default-key name$	&	standaard waarde voor ID encryptie.\\
-								$-r name$				&	encryptie naar ontvanger 'name'.\\
+								$-o file$				&	Schrijft output naar 'file'.\\
+								$--default-key name$	&	Standaard waarde voor ID encryptie.\\
+								$-r name$				&	Encryptie naar ontvanger 'name'.\\
 								$-v$					&	Verbose, geft meer info tijdens het 																	proces.\\
 								$-i$					&	Interactief, geeft prompts voor iedere 																	stap.\\
 						\end{tabular}\caption{vaak gebruikte opties}
 											
 				\subsubsection{Voorbeelden van het gebruik}\label{use}
 						\begin{tabular}{l|l}
-								$gpg -r Bob file$				&	handteken en encrypt voor Bob.\\
-								$gpg --clearsign file$			&	maakt een lege handtekening.\\
-								$gpg --fingerprint user_ID$		&	laat vingerafdruk zien.\\
-								$gpg --verify gpgfile$			&	verifieert pgpfile.\\
-								$gpg --list-keys user_ID$		&	laat sleutels zien.\\
+								$gpg -r Bob file$				&	Handteken en encrypt voor Bob.\\
+								$gpg --clearsign file$			&	Maakt een lege handtekening.\\
+								$gpg --fingerprint user_ID$		&	Laat vingerafdruk zien.\\
+								$gpg --verify gpgfile$			&	Verifieert pgpfile.\\
+								$gpg --list-keys user_ID$		&	Laat sleutels zien.\\
 						\end{tabular}
 						\caption{voorbeelden}
 					\end{table}	
 			
 			\newpage		
 			\subsection{Werking en uitvoer van GPG}\label{Werk}	
+				\paragraph*{Encryptie:}
 				Het bestand 'GPGtest' in de directory '/home/GPG/testfiles' Moet geincrypteerd 							worden.\\
 				Bij gebruik van GPG is de werking als volgt:\\
 					\begin{center}
@@ -114,7 +117,7 @@
 						gpg -c test
 					\end{center}
 				Er wordt een passphrase gevraagd voordat er kan worden verdergegaan.\\
-				Dit is een wachtwoord dat bij eerste gebruik wordt aangemaakt.\\
+				Dit is een wachtwoord dat, bij eerste gebruik, wordt aangemaakt.\\
 				Bij de weergave van de inhoud van deze Directory is er te zien dat het bestand 							'GPGtest' geincrypteerd is naar 'GPGtest.gpg'
 				
 				\begin{figure}[!ht]
@@ -122,7 +125,9 @@
 						\includegraphics[scale=0.4]{Pictures/terminal}
 					\end{center}
 					\caption{uitvoer in terminal}
-				\end{figure}				
+				\end{figure}
+				
+				\paragraph*{Deryptie:}				
 			
 			\newpage
 			\subsection{Frontend GPG programma's}\label{GUI} 
