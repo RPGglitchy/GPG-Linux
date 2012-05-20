@@ -1,23 +1,26 @@
-\contentsline {section}{\numberline {1}Introductie}{3}
-\contentsline {paragraph}{Benadering}{3}
-\contentsline {section}{\numberline {2}GPG}{4}
-\contentsline {subsection}{\numberline {2.1}Geschiedenis}{4}
-\contentsline {paragraph}{Scytale}{4}
-\contentsline {paragraph}{Caesar methode}{4}
-\contentsline {subsection}{\numberline {2.2}Wat is GPG?}{5}
-\contentsline {subsection}{\numberline {2.3}GPG in command-line interface (CLI)}{5}
-\contentsline {subsubsection}{\numberline {2.3.1}Voorbeelden van vaak gebruikte commando's}{6}
-\contentsline {subsubsection}{\numberline {2.3.2}Voorbeelden van vaak gebruikte opties}{6}
-\contentsline {subsubsection}{\numberline {2.3.3}Voorbeelden van het gebruik}{6}
-\contentsline {subsection}{\numberline {2.4}Werking en uitvoer van GPG}{7}
-\contentsline {subsection}{\numberline {2.5}Frontend GPG programma's}{8}
-\contentsline {subsection}{\numberline {2.6}Werking van een GPG Frontend}{8}
-\contentsline {paragraph}{Cryptophane}{9}
-\contentsline {paragraph}{Gajim}{9}
-\contentsline {paragraph}{GPGshell}{10}
-\contentsline {paragraph}{GPA}{10}
-\contentsline {paragraph}{KGpg}{11}
-\contentsline {paragraph}{Seahorse}{11}
-\contentsline {paragraph}{Wija}{12}
-\contentsline {section}{\numberline {3}Belangrijke woorden}{13}
-\contentsline {section}{\numberline {4}Referenties}{14}
+\contentsline {section}{\numberline {1}Introductie}{4}
+\contentsline {paragraph}{Benadering}{4}
+\contentsline {section}{\numberline {2}GPG}{5}
+\contentsline {subsection}{\numberline {2.1}Geschiedenis}{5}
+\contentsline {paragraph}{Scytale}{5}
+\contentsline {paragraph}{Caesar methode}{5}
+\contentsline {paragraph}{Heden}{6}
+\contentsline {subsection}{\numberline {2.2}Wat is GPG?}{7}
+\contentsline {subsection}{\numberline {2.3}GPG in command-line interface (CLI)}{7}
+\contentsline {subsubsection}{\numberline {2.3.1}Voorbeelden van vaak gebruikte commando's}{8}
+\contentsline {subsubsection}{\numberline {2.3.2}Voorbeelden van vaak gebruikte opties}{8}
+\contentsline {subsubsection}{\numberline {2.3.3}Voorbeelden van het gebruik}{8}
+\contentsline {subsection}{\numberline {2.4}Werking en uitvoer van GPG}{9}
+\contentsline {paragraph}{Encryptie en decryptie}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {2.5}Frontend GPG programma's}{11}
+\contentsline {subsection}{\numberline {2.6}Werking van een GPG Frontend}{11}
+\contentsline {paragraph}{Cryptophane}{12}
+\contentsline {paragraph}{Gajim}{12}
+\contentsline {paragraph}{GPGshell}{13}
+\contentsline {paragraph}{GPA}{13}
+\contentsline {paragraph}{KGpg}{14}
+\contentsline {paragraph}{Seahorse}{14}
+\contentsline {paragraph}{Wija}{15}
+\contentsline {section}{\numberline {3}Belangrijke woorden}{16}
+\contentsline {section}{\numberline {4}Referenties}{17}

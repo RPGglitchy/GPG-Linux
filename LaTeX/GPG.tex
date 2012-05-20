@@ -24,6 +24,7 @@
 
 	\newpage
 	\tableofcontents
+	\newpage
 	\listoffigures
 	\listoftables
 
@@ -53,8 +54,9 @@
 				Belangrijk is dat de cijfers overeenkomen met een letter uit het alphabet. Als het 						gekozen cijfer 6 is, Wordt het alphabet 6 maal naar links verschoven. A wordt dan F 					en B wordt dan G, enz...\\
 				De ontvanger krijgt dan een wirwar van letters en kan deze ontcijferen door het 						alphabet terug te vormen foor het 6 maal naar rechts te verschuiven.\\
 
-
-				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee-geevolueerd naar de 						toekomst.\\
+			\newpage
+			\paragraph{Heden}
+				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee geevolueerd naar de 						toekomst.\\
 				Technology is nu de heerser over het verzenden van boodschappen.
 				Mailen, accounts aanmaken, bestanden opslaan, enz... Gebeurt iedere dag. Dit moet dan 					ook beveiligd worden.\\
 				Dit doen we aan de hand van het encrypteren van de bestanden, handtekenen van mails,
@@ -85,7 +87,7 @@
 								$--encrypt-files$	&	Encryptie van meerdere bestanden in 1 																	commando.\\
 								$--decrypt-files$	&	Decryptie van meerdere bestanden in 1 																	commando.\\
 						\end{tabular}
-						\caption{vaak gebruikte commando's}						
+						\caption{Vaak gebruikte commando's}						
 					
 				\subsubsection{Voorbeelden van vaak gebruikte opties}\label{opt}					
 						\begin{tabular}{l|l}
@@ -94,7 +96,7 @@
 								$-r name$				&	Encryptie naar ontvanger 'name'.\\
 								$-v$					&	Verbose, geft meer info tijdens het 																	proces.\\
 								$-i$					&	Interactief, geeft prompts voor iedere 																	stap.\\
-						\end{tabular}\caption{vaak gebruikte opties}
+						\end{tabular}\caption{Vaak gebruikte opties}
 											
 				\subsubsection{Voorbeelden van het gebruik}\label{use}
 						\begin{tabular}{l|l}
@@ -104,32 +106,64 @@
 								$gpg --verify gpgfile$			&	Verifieert pgpfile.\\
 								$gpg --list-keys user_ID$		&	Laat sleutels zien.\\
 						\end{tabular}
-						\caption{voorbeelden}
+						\caption{Voorbeelden}
 					\end{table}	
 			
 			\newpage		
 			\subsection{Werking en uitvoer van GPG}\label{Werk}	
-				\paragraph*{Encryptie:}
-				Het bestand 'GPGtest' in de directory '/home/GPG/testfiles' Moet geincrypteerd 							worden.\\
-				Bij gebruik van GPG is de werking als volgt:\\
+				\paragraph*{Sleutel}
+				Om een bestand te kunnen encrypteren, is een sleutel vereist.\\
+				Deze moet als initieele stap worden aangemaakt met het commando:\\
+				gpg --gen-key\\
+				Bij het gebruik van dit commando, worden veel vragen gesteld ter configuratie.\\
+				-type van sleutel, -grootte, -vervaldatum, -identificatie.\\
+				Na het ingeven van deze waardes, wordt er gevraagd naar een Passphrase.
+				Deze is zeer belangrijk te onthouden.\\
+				Door het commando:\\
+				' gpg --armor --output pubkey.txt --export 'Naam' '\\
+				te gebruiken, zal een output gemaakt worden van deze public key naar textbestand,
+				om deze te kunnen verzenden naar de gewenste contacten.\\
+				Zie figuur ~\ref{Terminal}\\
+				
+				\begin{figure}
 					\begin{center}
-						cd /home/GPG\\
-						gpg -c test
+						\includegraphics[scale=0.4]{Pictures/Sleutel1}
+						\includegraphics[scale=0.4]{Pictures/Sleutel2}
+						\includegraphics[scale=0.4]{Pictures/Sleutel3}
 					\end{center}
-				Er wordt een passphrase gevraagd voordat er kan worden verdergegaan.\\
-				Dit is een wachtwoord dat, bij eerste gebruik, wordt aangemaakt.\\
-				Bij de weergave van de inhoud van deze Directory is er te zien dat het bestand 							'GPGtest' geincrypteerd is naar 'GPGtest.gpg'
+					\caption{Sleutel}\label{Terminal}
+				\end{figure}
+				
+				\paragraph{Encryptie en decryptie}
+				gpg --encrypt --recipient 'Naam' test.txt\\
+				Door dit commando te gebruiken, zal het bestand 'test.txt' geincrypteerd worden
+				met de sleutel van *Naam*.\\
+				Na het gebruik van dit commando, werd het bestand 'test.txt' geincrypteerd naar
+				'test.txt.gpg'.
+				Als er gewenst wordt, dit bestand te decrypteren, dan gebruiken we het volgende 
+				commando:\\
+				gpg --output test.txt --decrypt test.txt.gpg\\
+				Zie figuur ~\ref{Encryptie}\\
 				
 				\begin{figure}[!ht]
 					\begin{center}
-						\includegraphics[scale=0.4]{Pictures/terminal}
+						\includegraphics[scale=0.4]{Pictures/Encryptie}
 					\end{center}
-					\caption{uitvoer in terminal}
+					\caption{Encryptie}\label{Encryptie}
 				\end{figure}
 				
-				\paragraph*{Deryptie:}				
+				\paragraph{}
+				De voorgaande methode is bestemd voor persoonlijk gebruik.\\
+				Om te encrypteren naar andere contacten maken we gebruik van het commando 
+				'importeren': gpg --import key.asc\\
+				In dit commando geld dat 'key' de sleutel is van de persoon die gecontacteerd
+				moet worden.\\
+				Een andere mogelijkheid is deze sleutel zoeken op een publieke website;\\
+				gpg --search-keys 'myfriend@his.isp.com' --keyserver hkp://subkeys.pgp.net\\
+				Bij het encrypteren van een bestand, wordt er gebruik gemaakt van dezelfde commando,
+				als bij persoonlijk gebruik, maar met een verschillende sleutel.\\
+				gpg --encrypt --recipient 'myfriend@his.isp.net' test.txt\\		
 			
-			\newpage
 			\subsection{Frontend GPG programma's}\label{GUI} 
 				\begin{table}[!ht]
 					\begin{center}
@@ -145,7 +179,7 @@
 					\end{center}
 					\caption{Gui Frontends}
 				\end{table}
-
+			
 				\begin{figure}[!ht]
 					\paragraph{Cryptophane}
 						Deze wordt gebruikt om te encrypteren, decrypteren, handtekenen, beheer van 							sleutelhanger en een command-line interface voor GnuPG.\\
@@ -242,6 +276,7 @@
 			$http://utils.kde.org/projects/kgpg/$\\
 			$http://projects.gnome.org/seahorse/$\\
 			$http://tex.stackexchange.com/questions/8652/what-does-t-and-ht-mean$\\
+			$http://www.madboa.com/geek/gpg-quickstart/$\\
 					
 	Geschreven door ~\cite{Chari01}
 	\bibliography{myBib}{}
