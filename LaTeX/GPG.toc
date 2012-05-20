@@ -11,11 +11,12 @@
 \contentsline {subsubsection}{\numberline {2.3.3}Voorbeelden van het gebruik}{6}
 \contentsline {subsection}{\numberline {2.4}Werking en uitvoer van GPG}{7}
 \contentsline {subsection}{\numberline {2.5}Frontend GPG programma's}{8}
-\contentsline {paragraph}{Cryptophane}{8}
+\contentsline {subsection}{\numberline {2.6}Werking van een GPG Frontend}{8}
+\contentsline {paragraph}{Cryptophane}{9}
 \contentsline {paragraph}{Gajim}{9}
-\contentsline {paragraph}{GPGshell}{9}
+\contentsline {paragraph}{GPGshell}{10}
 \contentsline {paragraph}{GPA}{10}
-\contentsline {paragraph}{KGpg}{10}
+\contentsline {paragraph}{KGpg}{11}
 \contentsline {paragraph}{Seahorse}{11}
 \contentsline {paragraph}{Wija}{12}
 \contentsline {section}{\numberline {3}Belangrijke woorden}{13}
