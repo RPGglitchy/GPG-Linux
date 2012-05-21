@@ -23,4 +23,3 @@
 \contentsline {paragraph}{Seahorse}{14}
 \contentsline {paragraph}{Wija}{15}
 \contentsline {section}{\numberline {3}Belangrijke woorden}{16}
-\contentsline {section}{\numberline {4}Referenties}{17}
