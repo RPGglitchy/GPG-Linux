@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo '                            ____    ____              ____               ____  ____'		
-echo '|\    /|    /\    |  |     |    |  |      \      / | |     \          / |     |    |'
-echo '| \  / |   /  \   |  |     |____|  |____   \    /  | |____  \        /  |____ |____|'
-echo '|  \/  |  /----\  |  |     |   \   |        \  /   | |       \  /\  /   |     |   \'
-echo '|      | /      \ |  |____ |    \  |____     \/    | |____    \/  \/    |____ |    \'
+echo '                            ____    ___              ___               ___  ____'		
+echo '|\    /|    /\    |  |     |    |  |     \      / | |    \          / |    |    |'
+echo '| \  / |   /  \   |  |     |____|  |___   \    /  | |___  \        /  |___ |____|'
+echo '|  \/  |  /----\  |  |     |   \   |       \  /   | |      \  /\  /   |    |   \'
+echo '|      | /      \ |  |____ |    \  |___     \/    | |___    \/  \/    |___ |    \'
 echo ' '
 
 
@@ -21,9 +21,9 @@ while true; do
 	echo 'Het e-mail adres: ' $email
 	echo 'Het pad naar het .tex bestand: ' $pad
 	echo '========================='
-	read -p '[J/N]' correct
+	read -p '[j/n]	' correct
 
-	if [[ "$correct" == "J" ] -o [ "$correct" == "j" ]]
+	if [[ "$correct" == "j" ]]
 		then break;
 	fi
 done
@@ -31,7 +31,11 @@ done
 echo 'Om fouten te vermijden wordt er een backup gemaakt van de huidige .tex file.'
 cp "$pad/GPG.tex" "$pad/GPGbackup.tex"
 
-sed -r "s/\rfoot{}/\rfoot{$naam $voornaam }/" "$pad/GPG.tex" > "$pad/GPG.txt" && mv "$pad/GPG.txt" "$pad/GPG.tex"
+sed -r "s/xname/$naam $voornaam/" "$pad/GPG.tex" > "$pad/GPG.txt" && mv "$pad/GPG.txt" "$pad/GPG.tex"
+
+cd $pad
+pdflatex GPG.tex
+cd ~
 
 zip -r "$pad/KaripidisChari_$naam$voornaam.zip" $pad > "$pad/zip.txt"
 
@@ -45,9 +49,9 @@ echo "De mail is succesvol verzonden naar $email."
 
 rm "$pad/zip.txt" "$pad/KaripidisChari_$naam$voornaam.zip" "$pad/tempMail.txt"
 
-read -p 'Wenst u het backup bestand terug te plaatsen?' backup
+read -p 'Wenst u het backup bestand terug te plaatsen? [j/n]	' backup
 
-if [[ "$backup" == "J" ] -o [ "$backup" == "j" ]]
+if [[ "$backup" == "j" ]]
 	then mv $pad/GPGbackup.tex $pad/GPG.tex
 fi
 
