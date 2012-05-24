@@ -1,22 +1,28 @@
 \begin{thebibliography}{1}
 
+\bibitem{Commando}
+Anoniem.
+\newblock {Commando's}.
+\newblock website.
+\newblock \url{http://linux.about.com/library/cmd/blcmdl1_gpg.htm}.
+
 \bibitem{Frontend}
 Anoniem.
 \newblock {Frontends}.
 \newblock website.
 \newblock \url{http://www.gnupg.org/related_software/frontends.en.html}.
 
-\bibitem{Commando}
-Anoniem.
-\newblock {GPG snelstart}.
-\newblock website.
-\newblock \url{http://linux.about.com/library/cmd/blcmdl1_gpg.htm}.
-
 \bibitem{GPGstart}
 Anoniem.
 \newblock {GPG snelstart}.
 \newblock website.
 \newblock \url{www.madboa.com/geek/gpg-quickstart/}.
+
+\bibitem{Git}
+Anoniem.
+\newblock {GPG snelstart}.
+\newblock website.
+\newblock \url{www.Github.com}.
 
 \bibitem{Shell}
 Anoniem.
@@ -29,6 +35,14 @@ Anoniem.
 \newblock {KGpg}.
 \newblock website.
 \newblock \url{http://utils.kde.org/projects/kgpg/}.
+
+\bibitem{Mail}
+Anoniem.
+\newblock {Mailserver configureren}.
+\newblock website.
+\newblock
+  \url{http://shreevatsa.wordpress.com/2007/07/31/using-gmail-with-mutt-the-mi%
+nimal-way/}.
 
 \bibitem{Seahorse}
 Anoniem.

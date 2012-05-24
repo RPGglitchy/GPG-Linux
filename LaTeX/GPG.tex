@@ -30,10 +30,7 @@
 
 	\newpage
 	\tableofcontents
-	\newpage
-	\listoffigures
-	\listoftables
-
+	
 	\newpage
 		\section{Introductie}
 			In dit document wordt het gebruik van GPG(GnuPG) nader verklaard.
@@ -269,6 +266,14 @@
 			website of applicatie, Zal er worden gevraagd deze op te slaan in je sleutelhanger.
 			Als de gebruiker dit toestaat, wordt deze geëncrypteerd toegevoegd aan je sleutelhanger.
 			
+		\newpage
+		\bibliography{myBib}
+		\newpage
+		\listoffigures
+		\listoftables
+		\newpage
+		\printindex	
+			
 		\section{Bijlagen}\label{Bijlagen}
 			\subsection{Versiebeheersysteem}\label{Git}
 				\subsubsection{Registratie}
@@ -289,7 +294,7 @@
 					\\
 					 Daarna een nieuwe SSH sleutel genereren.\\
 					 \\
-					 ssh-keygen -t rsa -C 'uw\_email@uwemail.com'\\
+					 ssh-keygen -t rsa -C \textquotedblleft uw\_email@uwemail.com"\\
 					 \\
 					 De terminal vraagt de gebruiker voor een passphrase.
 					 Na ingave van de passphrase is de SSH sleutel ingesteld.\\
@@ -305,11 +310,14 @@
 					 Hier zal worden gevraagd om verder te gaan en zal dan de gebruiker begroeten en toegang bieden.\\
 					 \\
 					 De laatste stap bestaat uit configuratie van git.\\
-					 git config --global user.name 'Voornaam Achternaam'\\
-					 git config --global user.email 'uwemail@uwemail.com'\\
+					 git config --global user.name "Voornaam Achternaam"\\
+					 git config --global user.email \textquotedblleft uwemail@uwemail.com"\\
 					 \\
-					 Deze commando's zorgen voor een correcte configuratie van git.
-					
+					 Deze commando's zorgen voor een correcte configuratie van git.\\
+					 \\
+				\cite{Git}				
+				
+				\newpage
 				\subsubsection{Git commando's}
 					Nadat het versiebeheersysteem correct is geconfigureerd, kan er een bewaarplaats worden aangemaakt.\\
 					Door op 'New repository' te klikken is het mogelijk een bewaarplaats aan te maken in een bestaand account.\\
@@ -330,20 +338,43 @@
 					  \\
 					  Nadat er voor het eerst een origin master wordt aangemaakt en 'pushed',\\
 					  Zal er in de toekomst enkel 'git push' gebruikt kunnen worden.
-					
+			
+			\newpage
 			\subsection{Mailserver configuratie}\label{Mail}
 				\subsubsection{Mailserver instellen}
-					
+					Om mutt te installeren, wordt er gebruik gemaakt van een simpel commando.\\
+					\\					
+					sudo apt-get install openssl mutt\\
+					\\
+					Alle gevraagde waardes mogen standaard zijn.\\
+					Mutt is nu succesvol geïnstalleerd.
 					
 				\subsubsection{Configuratie}
-					
+					Ter configuratie moet een bestand '.muttrc' aangemaakt worden in de homefolder.\\
+					Dit bestand moet de volgende inhoud bevatten;\\
+						\\
+						set imap\_user = \textquotedblleft username@gmail.com"\\
+						set imap\_pass = "password"\\
+						\\
+						set smtp\_url = "smtp://username@smtp.gmail.com:587/"\\
+						set smtp\_pass = "password"\\
+						set from = \textquotedblleft username@gmail.com"\\
+						set realname = "Your Real Name"\\
+						\\
+						set folder = \textquotedblleft imaps://imap.gmail.com:993"\\
+						set spoolfile = "+INBOX"\\
+						set postponed="+[Gmail]/Drafts"\\
+						\\
+						set header\_cache=~/.mutt/cache/headers\\
+						set message\_cachedir=~/.mutt/cache/bodies\\
+						set certificate\_file=~/.mutt/certificates\\
+						\\
+						set move = no\\
+						\\
+					In dit bestand moeten de 'username', 'password' en 'Your Real Name' gepersonaliseerd worden.\\
+			\cite{Mail}
 					
 			\subsection{Bash-script}\label{Script}
-			
-
-		\newpage
-		\bibliography{myBib}
-		\newpage
-		\printindex \label{Index}			
+				
 
 \end{document}
