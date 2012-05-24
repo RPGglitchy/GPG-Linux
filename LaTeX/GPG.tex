@@ -39,60 +39,65 @@
 			In dit document wordt het gebruik van GPG(GnuPG) nader verklaard.
 
 		\paragraph{Benadering}
-			De geschiedenis, werking en uitvoer wordt uitgewerkt in Sectie~\ref{GPG} GPG.\\
-			In de index~\ref{Index} Belangrijke woorden, geeft een overzicht van 									belangrijke woorden in het document.
+			De geschiedenis wordt in sectie ~\ref{Geschiedenis} benaderd.
+			GPG wordt uitgelegd in Sectie ~\ref{Wat}.
+			Hierin wordt de werking en uitvoer via command-line benaderd in secties ~\ref{CLI} en ~\ref{Werk}.
+			Ook zijn er Grafische applicaties die met GPG werken. Deze worden benaderd in secties ~\ref{GUI} en ~\ref{Frontend}.
+			In de bijlagen sectie ~\ref{Bijlagen} wordt uitgelegd hoe een versiebeheersysteem ingesteld word(~\ref{Git})
+			, een mailserver geconfigureerd (~\ref{Mail}) en een script voor een mail te verzenden (~\ref{Script}).
+			
 
 		\newpage
 		\section{GPG}\label{GPG}
-			\subsection{Geschiedenis}
-				Er is altijd wel een probleem met boodschappen verzenden en ontvangen, zonder dat men 				deze kunnen onderscheppen en lezen. Hier zijn handige uitvindingen voor ontworpen, 						die helpen bij dit probleem.
+			\subsection{Geschiedenis}\label{Geschiedenis}
+				Er is altijd wel een probleem met boodschappen verzenden en ontvangen, zonder dat men deze kunnen onderscheppen en lezen. Hier zijn handige uitvindingen voor ontworpen, 								die helpen bij dit probleem.
 
 			\paragraph{Scytale}
-				In de tijd van de romeinen had men een manier nodig om berichten te versturen naar 						geallieerde troepen. Verzender en ontvanger waren in het bezit van een 									'Scytale'\index{Scytale} van ieder dezelfde grootte. Dit voorwerp was een soort van 					cilinder. Hier werd een riem over gewikkeld en een boodschap op geschreven.\\
-				Bij het verwijderen van de riem, was deze tekst onleesbaar zonder behulp van de 						Scytale. De letters waren namelijk door mekaar. Bij ontvangst van de riem bij de 						troepen, wikkelde ze de riem over de Scytale die zij bezitten en was het zo mogelijk, 				de boodschap te lezen.\\
-				Dit was een soort van encryptie. Ervoor zorgen dat een onderschepper, de boodschap 						niet kan lezen.
+				In de tijd van de romeinen had men een manier nodig om berichten te versturen naar geallieerde troepen. Verzender en ontvanger waren in het bezit van een 												'Scytale'\index{Scytale} van ieder dezelfde grootte. Dit voorwerp was een soort van cilinder. Hier werd een riem over gewikkeld en een boodschap op geschreven.\\
+				Bij het verwijderen van de riem, was deze tekst onleesbaar zonder behulp van de Scytale. De letters waren namelijk door mekaar. Bij ontvangst van de riem bij de 										troepen, wikkelde ze de riem over de Scytale die zij bezitte en was het zo mogelijk, de boodschap te lezen.\\
+				Dit was een soort van encryptie. Ervoor zorgen dat een onderschepper, de boodschap niet kan lezen.
 
 			\paragraph{Caesar methode}
-				Een andere encryptie-methode was de Caesar methode.\\
+				Een andere encryptiemethode was de Caesar methode.\\
 				Deze bestond uit een zin hervormen m.b.v. het alphabet.\\ 
 				Dit klinkt natuurlijk zeer logisch.
 				Het alphabet wordt namelijk gebruikt om zinnen te schrijven.\\
-				Maar na het schrijven van de nodige boodschap, wordt er een 'sleutel' gekozen. Deze 					sleutel is afgesproken cijfer tussen 1 en 26, tussen beide partijen.\\
-				Belangrijk is dat de cijfers overeenkomen met een letter uit het alphabet. Als het 						gekozen cijfer 6 is, Wordt het alphabet 6 maal naar links verschoven. A wordt dan F 					en B wordt dan G, enz...\\
-				De ontvanger krijgt dan een wirwar van letters en kan deze ontcijferen door het 						alphabet terug te vormen door het 6 maal naar rechts te verschuiven.\\
+				Maar na het schrijven van de nodige boodschap, wordt er een 'sleutel' gekozen. Deze sleutel is een afgesproken cijfer tussen 1 en 26, tussen beide partijen.\\
+				Belangrijk is dat de cijfers overeenkomen met een letter uit het alphabet. Als het gekozen cijfer 6 is, Wordt het alphabet 6 maal naar links verschoven. A wordt dan F 									en B wordt dan G, enz...\\
+				De ontvanger krijgt dan een wirwar van letters en kan deze ontcijferen door het alphabet terug te vormen door het 6 maal naar rechts te verschuiven.\\
 
 			\newpage
 			\paragraph{Heden}
-				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee geevolueerd naar de 						toekomst.\\
+				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee geevolueerd naar de toekomst.\\
 				Technologie is nu de heerser over het verzenden van boodschappen.
-				Mailen, accounts aanmaken, bestanden opslaan, enz... Gebeurt iedere dag. Dit moet dan 					ook beveiligd worden.\\
-				Dit doen we aan de hand van het encrypteren\index{Encrypteren} van de bestanden, 						handtekenen van mails,
+				Mailen, accounts aanmaken, bestanden opslaan, enz... Gebeurt iedere dag. Dit moet dan ook beveiligd worden.\\
+				Dit doen we aan de hand van het encrypteren\index{Encrypteren} van de bestanden, handtekenen van mails,
 				enz...
 				Een manier voor encryptie is GPG.
 
 			\newpage
-			\subsection{Wat is GPG?}
-				GPG of GnuPG staat voor; Gnu Privacy Guard. Zoals de naam al voorstelt, is het om de 					privacy van gebruikers te beschermen. Dit doormiddel van encryptie van; boodschappen 					die verzonden moeten worden zoals mails, data encrypteren, 'sleutelhangers', enz... 					\\
-				GnuPG is een commando voor de terminal, Te zien in Subsectie~\ref{CLI}, maar er zijn 					dergelijke frontend\index{Frontend} programma's om deze in een gui te kunnen gebruiken. 				Te zien in Subsectie~\ref{GUI}
+			\subsection{Wat is GPG?}\label{Wat}
+				GPG of GnuPG staat voor; Gnu Privacy Guard. Zoals de naam al voorstelt, is het om de privacy van gebruikers te beschermen. Dit doormiddel van encryptie van; boodschappen 								die verzonden moeten worden zoals mails, data encrypteren, 'sleutelhangers', enz... \\
+				GnuPG is een commando voor de terminal, Te zien in Subsectie~\ref{CLI}, maar er zijn dergelijke frontend\index{Frontend} programma's om deze in een grafische applicatie te kunnen 						gebruiken. Te zien in Subsectie~\ref{GUI}
 
 			\subsection{GPG in command-line interface (CLI)}\label{CLI}
-				Zoals ieder ander command, heeft GPG ook zijn nodige syntax\index{Syntax}.\\
+				Zoals ieder ander commando, heeft GPG ook zijn nodige syntax\index{Syntax}.\\
 				\begin{center}
 					$gpg  [--homedir name]  [--options file]  [options]  command  [args]$\\
 				\end{center}
-				Het command 'GPG' heeft een enorm aantal aan opties. In 'man gpg' worden de 							opties weergegeven, met de nodige uitleg.\\
-				In subsecties ~\ref{com}, ~\ref{opt}, ~\ref{use}, worden voorbeelden weergegeven van 					welke er het meest gebruikt worden.\\
+				Het command 'GPG' heeft een enorm aantal aan opties. In 'man gpg' worden de opties weergegeven, met de nodige uitleg.\\
+				In subsecties ~\ref{com}, ~\ref{opt}, ~\ref{use}, worden voorbeelden weergegeven van welke er het meest gebruikt worden.\\
 				
 				\newpage
 				\subsubsection{Voorbeelden van vaak gebruikte commando's}\label{com}
 					\begin{table}[!ht] \cite{Commando}
 						\begin{tabular}{l|l}
-								-c				&	Symmetrische encryptie, vraagt voor 																	passphrase\index{Passphrase}.\\
-								--decrypt			&	Decryptie\index{Decryptie} van geincrypteerde 															bestanden.\\
-								--encrypt			&	Encryptie van data. Wordt gecombineerd met -															sign.\\
-								-sign				&	Maakt handtekening, wordt gecombineerd met --															encrypt.\\
-								--encrypt-files	&	Encryptie van meerdere bestanden in 1 																	commando.\\
-								--decrypt-files	&	Decryptie van meerdere bestanden in 1 																	commando.\\
+								-c				&	Symmetrische encryptie, vraagt voor passphrase\index{Passphrase}.\\
+								--decrypt			&	Decryptie\index{Decryptie} van geëncrypteerde bestanden.\\
+								--encrypt			&	Encryptie van data. Wordt gecombineerd met -sign.\\
+								-sign				&	Maakt handtekening, wordt gecombineerd met --encrypt.\\
+								--encrypt-files	&	Encryptie van meerdere bestanden in 1 commando.\\
+								--decrypt-files	&	Decryptie van meerdere bestanden in 1 commando.\\
 						\end{tabular}
 						\caption{Vaak gebruikte commando's}						
 					
@@ -101,14 +106,14 @@
 								-o file				&	Schrijft output naar 'file'.\\
 								--default-key name	&	Standaard waarde voor ID encryptie.\\
 								-r name				&	Encryptie naar ontvanger 'name'.\\
-								-v					&	Verbose\index{Verbose}, geeft meer info tijdens 														het proces.\\
-								-i					&	Interactief, geeft prompts\index{Prompts} voor iedere 																	stap.\\
+								-v					&	Verbose\index{Verbose}, geeft meer info tijdens het proces.\\
+								-i					&	Interactief, geeft prompts\index{Prompts} voor iedere stap.\\
 						\end{tabular}\caption{Vaak gebruikte opties}
 											
 				\subsubsection{Voorbeelden van het gebruik}\label{use}\cite{Commando}
 						\begin{tabular}{l|l}
 								$gpg -r Bob file$				&	Handteken en encryptie voor Bob.\\
-								$gpg --clearsign file$			&	Maakt een lege 																							handtekening\index{Handtekening}.\\
+								$gpg --clearsign file$			&	Maakt een lege handtekening\index{Handtekening}.\\
 								$gpg --fingerprint user_ID$		&	Laat vingerafdruk zien.\\
 								$gpg --verify gpgfile$			&	Verifieert pgpfile.\\
 								$gpg --list-keys user_ID$		&	Laat sleutels zien.\\
@@ -129,7 +134,7 @@
 				Deze is zeer belangrijk te onthouden.\\
 				Door het commando:\\
 				' gpg --armor --output pubkey.txt --export 'Naam' '\\
-				te gebruiken, zal een output gemaakt worden van deze public key naar textbestand,
+				te gebruiken, zal een uitvoer gemaakt worden van deze public key naar textbestand,
 				om deze te kunnen verzenden naar de gewenste contacten.\\
 				Zie figuur ~\ref{Terminal}\\
 				
@@ -144,9 +149,9 @@
 				
 				\paragraph{Encryptie en decryptie} \cite{GPGstart}
 				gpg --encrypt --recipient 'Naam' test.txt\\
-				Door dit commando te gebruiken, zal het bestand 'test.txt' geincrypteerd worden
+				Door dit commando te gebruiken, zal het bestand 'test.txt' geëncrypteerd worden
 				met de sleutel van *Naam*.\\
-				Na het gebruik van dit commando, werd het bestand 'test.txt' geincrypteerd naar
+				Na het gebruik van dit commando, werd het bestand 'test.txt' geëncrypteerd naar
 				'test.txt.gpg'.
 				Als er gewenst wordt, dit bestand te decrypteren, dan gebruiken we het volgende 
 				commando:\\
@@ -183,16 +188,16 @@
 							GPA			&	De standaard Frontend voor GPG.\\
 							KGpg		&	GnuPG voor KDE.\\ \index{KDE}
 							Seahorse	&	GnuPG voor GNOME.\\ \index{GNOME}
-							Wija		&	Een cross-platform jabber client (MacOsX, Linux, 														Windows)\\
+							Wija		&	Een cross-platform jabber client (MacOsX, Linux, Windows)\\
 						\end{tabular}
 					\end{center}
 					\caption{Gui Frontends} 
 				\end{table}
-				\index{Frontend}
+				
 			
 				\begin{figure}[!ht]
 					\paragraph{Cryptophane}
-						Deze wordt gebruikt om te encrypteren, decrypteren, handtekenen, beheer van 							sleutelhanger en een command-line interface voor GnuPG.\\
+						Deze wordt gebruikt om te encrypteren, decrypteren, handtekenen, beheer van sleutelhanger en een command-line interface voor GnuPG.\\
 					\begin{center}
 						\includegraphics[scale=0.6]{Pictures/cryptophane}
 					\end{center}
@@ -200,7 +205,7 @@
 				
 					\paragraph{Gajim}
 						Gajim is een Jabber-client. Een Jabber-client is een messaging applicatie.
-						Omdat Gajim werkt met GnuPG, zullen de berichten die verzonden worden met 								Gajim, Geincrypteerd worden.
+						Omdat Gajim werkt met GnuPG, zullen de berichten die verzonden worden met Gajim, geëncrypteerd worden.
 					\begin{center}
 						\includegraphics[scale=0.4]{Pictures/gajim}
 					\end{center}
@@ -209,14 +214,14 @@
 				
 				\begin{figure}[!ht]
 					\paragraph{GPGshell}\cite{Shell}
-						Een grafische frontend voor iedere platform. Met deze GUI \index{GUI} is het mogelijk 								sleutels bij te houden en te encrypteren. 
+						Een grafische frontend voor iedere platform. Met deze GUI \index{GUI} is het mogelijk sleutels bij te houden en te encrypteren. 
 					\begin{center}
 						\includegraphics[scale=0.5]{Pictures/gpgshell}
 					\end{center}
 					\caption{GnuPG Shell}
 				
 					\paragraph{GPA}
-						GPA probeert de standaard frontend te zijn voor GPG. $www.gnupg.org$ Host 								GPA.
+						GPA probeert de standaard frontend te zijn voor GPG. $www.gnupg.org$ Host GPA.
 					\begin{center}
 						\includegraphics[scale=0.6]{Pictures/GPA}
 					\end{center}
@@ -225,7 +230,7 @@
 				
 				\begin{figure}[!ht]				
 					\paragraph{KGpg}\cite{Kgpg}
-						Met KGpg kan je bestanden en mails encrypteren en decrypteren om je 									informatie veilig te houden.
+						Met KGpg kan je bestanden en mails encrypteren en decrypteren om je informatie veilig te houden.
 						Het is een gratis en open-source\index{Open-source} frontend.
 					\begin{center}
 						\includegraphics[scale=0.2]{Pictures/kgpg}
@@ -233,8 +238,8 @@
 					\caption{KGpg}
 				
 					\paragraph{Seahorse} \cite{Seahorse}
-						Seahorse is een GUI voor GNOME. Het is ook geintegreerd in Nautilus\index{Nautilus}, gedit 								en andere applicaties voor encryptie uit te voeren.
-						Je kan met Seahorse; PGP en SSH\index{SSH} sleutels maken en beheren, publiceren en 								terughalen van sleutels op de servers, een passphrase cachen, 											sleutelhanger backuppen, enz...
+						Seahorse is een GUI voor GNOME. Het is ook geïntegreerd in Nautilus\index{Nautilus}, gedit en andere applicaties voor encryptie uit te voeren.
+						Je kan met Seahorse; PGP en SSH\index{SSH} sleutels maken en beheren, publiceren en terughalen van sleutels op de servers, een passphrase opslaan in het cache geheugen, 								sleutelhanger backuppen, enz...
 					\begin{center}
 						\includegraphics[scale=0.4]{Pictures/Seahorse}
 					\end{center}
@@ -243,8 +248,8 @@
 				
 				\begin{figure}[!ht]				
 					\paragraph{Wija}
-						Een Jabber-client zoals Gajim, maar geschreven in java en beschikbaar voor 								ieder platform.
-						Het heeft een ingebouwde sleutelhanger beheersysteem. Het kan ook zeer 									gemakkelijk boodschappen encrypteren en dycrepteren voor gewone gesprekken of 							multi-user gesprekken.
+						Een Jabber-client zoals Gajim, maar geschreven in java en beschikbaar voor ieder platform.
+						Het heeft een ingebouwde sleutelhanger beheersysteem. Het kan ook zeer gemakkelijk boodschappen encrypteren en decrypteren voor gewone gesprekken of 													multi-user gesprekken.
 						Het is ook mogelijk de boodschappen te handtekenen.
 					\begin{center}
 						\includegraphics[scale=0.7]{Pictures/wija}
@@ -262,7 +267,79 @@
 			Voorzien zijn bij de initieele stappen. Deze passphrase zorgt ervoor dat de sleutelhanger
 			ontgrendelt kan worden voor gebruik. Als er dan een wachtwoord wordt ingesteld op een
 			website of applicatie, Zal er worden gevraagd deze op te slaan in je sleutelhanger.
-			Als de gebruiker dit toestaat, wordt deze geincrypteerd toegevoegd aan je sleutelhanger.
+			Als de gebruiker dit toestaat, wordt deze geëncrypteerd toegevoegd aan je sleutelhanger.
+			
+		\section{Bijlagen}\label{Bijlagen}
+			\subsection{Versiebeheersysteem}\label{Git}
+				\subsubsection{Registratie}
+					De eerste stap om een versiebeheersysteem te kunnen aanmaken, is het registreren op een website die versiebeheersysteem beheert.\\
+					$www.github.com$ Is een beheerder van versiebeheersystemen.\\
+					Bij het registreren op Github, wordt er nadien een ronde gedaan om te helpen bij het configureren van iemand's bewaarplaats.
+					
+				\subsubsection{Configuratie}
+					Via 'Synaptic Package Manager' Is het nodig, bepaalde pakketen te downloaden. Namelijk; 'git-core', 'git-doc', 'git-gui'.\\
+					Github maakt gebruikt van SSH sleutels voor een veilige connectie.\\
+					Met de volgende commando's in de terminal, wordt er een eigen SSH sleutel aangemaakt.\\
+					Eerst, bestaande SSH sleutels backuppen en verwijderen.\\
+					\\
+					mkdir key\_backup\\
+					cp id\_rsa* key\_backup\\
+					rm id\_rsa*
+					\\
+					\\
+					 Daarna een nieuwe SSH sleutel genereren.\\
+					 \\
+					 ssh-keygen -t rsa -C 'uw\_email@uwemail.com'\\
+					 \\
+					 De terminal vraagt de gebruiker voor een passphrase.
+					 Na ingave van de passphrase is de SSH sleutel ingesteld.\\
+					Deze sleutel moet toegevoegd worden in github. De volgende stappen laten zien hoe dat gebeurd.\\
+					 Open id-rsa.pub en kopieer de inhoud van dit bestand.\\
+					 In de tab 'Instellingen' op Github, bij 'SSH Keys' is het mogelijk een Sleutel toe te voegen.\\
+					 Bij het drukken op 'Add SSH key' kan de gekopieerde text toegevoegd worden en opgeslaan.\\
+					 \\
+					 Het versiebeheersysteem kan met de SSH sleutel nu getest worden door het volgende commando;\\
+					 \\
+					 ssh -T git@github.com\\
+					 \\
+					 Hier zal worden gevraagd om verder te gaan en zal dan de gebruiker begroeten en toegang bieden.\\
+					 \\
+					 De laatste stap bestaat uit configuratie van git.\\
+					 git config --global user.name 'Voornaam Achternaam'\\
+					 git config --global user.email 'uwemail@uwemail.com'\\
+					 \\
+					 Deze commando's zorgen voor een correcte configuratie van git.
+					
+				\subsubsection{Git commando's}
+					Nadat het versiebeheersysteem correct is geconfigureerd, kan er een bewaarplaats worden aangemaakt.\\
+					Door op 'New repository' te klikken is het mogelijk een bewaarplaats aan te maken in een bestaand account.\\
+					Met behulp van volgende commando's, kunnen bestanden in een bepaald pad worden toegevoegd aan de git.\\
+					\\
+					 mkdir ~/Hello-World\\
+					 cd ~/Hello-World\\
+					 git init\\
+					 \\
+					 Door git init, wordt een connectie geinitialiseerd tussen github en het pad.\\
+					 Als er nu bestanden worden toegevoegd in deze map, kan er met de volgende commando's, bestanden toegevoegd worden aan git.\\
+					 \\
+					  git status (laat zien welke bestanden verandert zijn)\\
+					  git add *naam (voegt bestand met naam *naam toe)\\
+					  git commit -m 'boodschap voor verandering'\\
+					  git remote add origin git@github.com:gebruikersnaam/Hello-World.git\\
+					  git push -u origin master (eerst een origin master aanmaken voor een beheer op afstand)\\
+					  \\
+					  Nadat er voor het eerst een origin master wordt aangemaakt en 'pushed',\\
+					  Zal er in de toekomst enkel 'git push' gebruikt kunnen worden.
+					
+			\subsection{Mailserver configuratie}\label{Mail}
+				\subsubsection{Mailserver instellen}
+					
+					
+				\subsubsection{Configuratie}
+					
+					
+			\subsection{Bash-script}\label{Script}
+			
 
 		\newpage
 		\bibliography{myBib}
