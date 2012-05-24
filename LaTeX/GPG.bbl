@@ -1,3 +1,46 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Frontend}
+Anoniem.
+\newblock {Frontends}.
+\newblock website.
+\newblock \url{http://www.gnupg.org/related_software/frontends.en.html}.
+
+\bibitem{Commando}
+Anoniem.
+\newblock {GPG snelstart}.
+\newblock website.
+\newblock \url{http://linux.about.com/library/cmd/blcmdl1_gpg.htm}.
+
+\bibitem{GPGstart}
+Anoniem.
+\newblock {GPG snelstart}.
+\newblock website.
+\newblock \url{www.madboa.com/geek/gpg-quickstart/}.
+
+\bibitem{Shell}
+Anoniem.
+\newblock {GPGShell}.
+\newblock website.
+\newblock \url{http://www.jumaros.de/rsoft/index.html}.
+
+\bibitem{Kgpg}
+Anoniem.
+\newblock {KGpg}.
+\newblock website.
+\newblock \url{http://utils.kde.org/projects/kgpg/}.
+
+\bibitem{Seahorse}
+Anoniem.
+\newblock {Seahorse}.
+\newblock website.
+\newblock \url{http://projects.gnome.org/seahorse/}.
+
+\bibitem{Tabellen}
+Anoniem.
+\newblock {Tabellen beheren}.
+\newblock website.
+\newblock
+  \url{http://tex.stackexchange.com/questions/8652/what-does-t-and-ht-mean/}.
 
 \end{thebibliography}

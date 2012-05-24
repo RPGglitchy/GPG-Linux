@@ -5,6 +5,10 @@
 
 \documentclass[12pt]{article}
 
+\usepackage[dutch]{babel}
+\usepackage{makeidx}
+\makeindex
+\usepackage{url}
 \usepackage{cite}
 \usepackage[section]{placeins}
 \usepackage{graphicx}
@@ -19,6 +23,7 @@
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 \bibliographystyle{plain}
+
 
 \begin{document}
 	\maketitle
@@ -35,7 +40,7 @@
 
 		\paragraph{Benadering}
 			De geschiedenis, werking en uitvoer wordt uitgewerkt in Sectie~\ref{GPG} GPG.\\
-			Sectie~\ref{Belangrijke woorden} Belangrijke woorden, geeft een overzicht van belangrijke 			woorden in het document.
+			In de index~\ref{Index} Belangrijke woorden, geeft een overzicht van 									belangrijke woorden in het document.
 
 		\newpage
 		\section{GPG}\label{GPG}
@@ -43,7 +48,7 @@
 				Er is altijd wel een probleem met boodschappen verzenden en ontvangen, zonder dat men 				deze kunnen onderscheppen en lezen. Hier zijn handige uitvindingen voor ontworpen, 						die helpen bij dit probleem.
 
 			\paragraph{Scytale}
-				In de tijd van de romeinen had men een manier nodig om berichten te versturen naar 						geallieerde troepen. Verzender en ontvanger waren in het bezit van een 'Scytale' van 					ieder dezelfde grootte. Dit voorwerp was een soort van cilinder. Hier werd een riem 					over gewikkeld en een boodschap op geschreven.\\
+				In de tijd van de romeinen had men een manier nodig om berichten te versturen naar 						geallieerde troepen. Verzender en ontvanger waren in het bezit van een 									'Scytale'\index{Scytale} van ieder dezelfde grootte. Dit voorwerp was een soort van 					cilinder. Hier werd een riem over gewikkeld en een boodschap op geschreven.\\
 				Bij het verwijderen van de riem, was deze tekst onleesbaar zonder behulp van de 						Scytale. De letters waren namelijk door mekaar. Bij ontvangst van de riem bij de 						troepen, wikkelde ze de riem over de Scytale die zij bezitten en was het zo mogelijk, 				de boodschap te lezen.\\
 				Dit was een soort van encryptie. Ervoor zorgen dat een onderschepper, de boodschap 						niet kan lezen.
 
@@ -61,17 +66,17 @@
 				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee geevolueerd naar de 						toekomst.\\
 				Technologie is nu de heerser over het verzenden van boodschappen.
 				Mailen, accounts aanmaken, bestanden opslaan, enz... Gebeurt iedere dag. Dit moet dan 					ook beveiligd worden.\\
-				Dit doen we aan de hand van het encrypteren van de bestanden, handtekenen van mails,
+				Dit doen we aan de hand van het encrypteren\index{Encrypteren} van de bestanden, 						handtekenen van mails,
 				enz...
 				Een manier voor encryptie is GPG.
 
 			\newpage
 			\subsection{Wat is GPG?}
 				GPG of GnuPG staat voor; Gnu Privacy Guard. Zoals de naam al voorstelt, is het om de 					privacy van gebruikers te beschermen. Dit doormiddel van encryptie van; boodschappen 					die verzonden moeten worden zoals mails, data encrypteren, 'sleutelhangers', enz... 					\\
-				GnuPG is een commando voor de terminal, Te zien in Subsectie~\ref{CLI}, maar er zijn 					dergelijke frontend programma's om deze in een gui te kunnen gebruiken. Te zien in 						Subsectie~\ref{GUI}
+				GnuPG is een commando voor de terminal, Te zien in Subsectie~\ref{CLI}, maar er zijn 					dergelijke frontend\index{Frontend} programma's om deze in een gui te kunnen gebruiken. 				Te zien in Subsectie~\ref{GUI}
 
 			\subsection{GPG in command-line interface (CLI)}\label{CLI}
-				Zoals ieder ander command, heeft GPG ook zijn nodige syntax.\\
+				Zoals ieder ander command, heeft GPG ook zijn nodige syntax\index{Syntax}.\\
 				\begin{center}
 					$gpg  [--homedir name]  [--options file]  [options]  command  [args]$\\
 				\end{center}
@@ -80,10 +85,10 @@
 				
 				\newpage
 				\subsubsection{Voorbeelden van vaak gebruikte commando's}\label{com}
-					\begin{table}[!ht]
+					\begin{table}[!ht] \cite{Commando}
 						\begin{tabular}{l|l}
-								-c				&	Symmetrische encryptie, vraagt voor 																	passphrase.\\
-								--decrypt			&	Decryptie van geincrypteerde bestanden.\\
+								-c				&	Symmetrische encryptie, vraagt voor 																	passphrase\index{Passphrase}.\\
+								--decrypt			&	Decryptie\index{Decryptie} van geincrypteerde 															bestanden.\\
 								--encrypt			&	Encryptie van data. Wordt gecombineerd met -															sign.\\
 								-sign				&	Maakt handtekening, wordt gecombineerd met --															encrypt.\\
 								--encrypt-files	&	Encryptie van meerdere bestanden in 1 																	commando.\\
@@ -91,29 +96,30 @@
 						\end{tabular}
 						\caption{Vaak gebruikte commando's}						
 					
-				\subsubsection{Voorbeelden van vaak gebruikte opties}\label{opt}					
+				\subsubsection{Voorbeelden van vaak gebruikte opties}\label{opt}\cite{Commando}					
 						\begin{tabular}{l|l}
 								-o file				&	Schrijft output naar 'file'.\\
 								--default-key name	&	Standaard waarde voor ID encryptie.\\
 								-r name				&	Encryptie naar ontvanger 'name'.\\
-								-v					&	Verbose, geeft meer info tijdens het 																	proces.\\
-								-i					&	Interactief, geeft prompts voor iedere 																	stap.\\
+								-v					&	Verbose\index{Verbose}, geeft meer info tijdens 														het proces.\\
+								-i					&	Interactief, geeft prompts\index{Prompts} voor iedere 																	stap.\\
 						\end{tabular}\caption{Vaak gebruikte opties}
 											
-				\subsubsection{Voorbeelden van het gebruik}\label{use}
+				\subsubsection{Voorbeelden van het gebruik}\label{use}\cite{Commando}
 						\begin{tabular}{l|l}
-								$gpg -r Bob file$				&	Handteken en encrypt voor Bob.\\
-								$gpg --clearsign file$			&	Maakt een lege handtekening.\\
+								$gpg -r Bob file$				&	Handteken en encryptie voor Bob.\\
+								$gpg --clearsign file$			&	Maakt een lege 																							handtekening\index{Handtekening}.\\
 								$gpg --fingerprint user_ID$		&	Laat vingerafdruk zien.\\
 								$gpg --verify gpgfile$			&	Verifieert pgpfile.\\
 								$gpg --list-keys user_ID$		&	Laat sleutels zien.\\
 						\end{tabular}
 						\caption{Voorbeelden}
 					\end{table}	
+				\cite{Tabellen}
 			
 			\newpage		
 			\subsection{Werking en uitvoer van GPG}\label{Werk}	
-				\paragraph*{Sleutel}
+				\paragraph*{Sleutel} 
 				Om een bestand te kunnen encrypteren, is een sleutel vereist.\\
 				Deze moet als initieele stap worden aangemaakt met het commando:\\
 				gpg --gen-key\\
@@ -136,7 +142,7 @@
 					\caption{Sleutel}\label{Terminal}
 				\end{figure}
 				
-				\paragraph{Encryptie en decryptie}
+				\paragraph{Encryptie en decryptie} \cite{GPGstart}
 				gpg --encrypt --recipient 'Naam' test.txt\\
 				Door dit commando te gebruiken, zal het bestand 'test.txt' geincrypteerd worden
 				met de sleutel van *Naam*.\\
@@ -165,22 +171,24 @@
 				Bij het encrypteren van een bestand, wordt er gebruik gemaakt van dezelfde commando,
 				als bij persoonlijk gebruik, maar met een verschillende sleutel.\\
 				gpg --encrypt --recipient 'myfriend@his.isp.net' test.txt\\		
+				\cite{GPGstart}
 			
-			\subsection{Frontend GPG programma's}\label{GUI} 
+			\subsection{Frontend GPG programma's}\label{GUI} \cite{Frontend} 
 				\begin{table}[!ht]
 					\begin{center}
 						\begin{tabular}{r|l}
 							Cryptophane	&	Een applicatie voor Windows.\\
-							Gajim		&	Een Jabber client voor GNOME.\\
-							GnuPG Shell	&	Een cross-platform, grafische Frontend voor GnuPG.\\
+							Gajim		&	Een Jabber client voor GNOME.\\ \index{Jabber client}
+							GnuPG Shell	&	Een cross-platform, grafische Frontend voor GnuPG.\\ \index{Cross-platform}
 							GPA			&	De standaard Frontend voor GPG.\\
-							KGpg		&	GnuPG voor KDE.\\
-							Seahorse	&	GnuPG voor GNOME.\\
+							KGpg		&	GnuPG voor KDE.\\ \index{KDE}
+							Seahorse	&	GnuPG voor GNOME.\\ \index{GNOME}
 							Wija		&	Een cross-platform jabber client (MacOsX, Linux, 														Windows)\\
 						\end{tabular}
 					\end{center}
-					\caption{Gui Frontends}
+					\caption{Gui Frontends} 
 				\end{table}
+				\index{Frontend}
 			
 				\begin{figure}[!ht]
 					\paragraph{Cryptophane}
@@ -200,8 +208,8 @@
 				\end{figure}
 				
 				\begin{figure}[!ht]
-					\paragraph{GPGshell}
-						Een grafische frontend voor iedere platform. Met deze GUI is het mogelijk 								sleutels bij te houden en te encrypteren. 
+					\paragraph{GPGshell}\cite{Shell}
+						Een grafische frontend voor iedere platform. Met deze GUI \index{GUI} is het mogelijk 								sleutels bij te houden en te encrypteren. 
 					\begin{center}
 						\includegraphics[scale=0.5]{Pictures/gpgshell}
 					\end{center}
@@ -216,17 +224,17 @@
 				\end{figure}
 				
 				\begin{figure}[!ht]				
-					\paragraph{KGpg}
-						Met KGpg kan je bestanden en mails encrypteren en dycrepteren om je 									informatie veilig te houden.
-						Het is een gratis en open-source frontend.
+					\paragraph{KGpg}\cite{Kgpg}
+						Met KGpg kan je bestanden en mails encrypteren en decrypteren om je 									informatie veilig te houden.
+						Het is een gratis en open-source\index{Open-source} frontend.
 					\begin{center}
 						\includegraphics[scale=0.2]{Pictures/kgpg}
 					\end{center}
 					\caption{KGpg}
 				
-					\paragraph{Seahorse}
-						Seahorse is een GUI voor GNOME. Het is ook geintegreerd in Nautilus, gedit 								en andere applicaties voor encryptie uit te voeren.
-						Je kan met Seahorse; PGP en SSH sleutels maken en beheren, publiceren en 								terughalen van sleutels op de servers, een passphrase cachen, 											sleutelhanger backuppen, enz...
+					\paragraph{Seahorse} \cite{Seahorse}
+						Seahorse is een GUI voor GNOME. Het is ook geintegreerd in Nautilus\index{Nautilus}, gedit 								en andere applicaties voor encryptie uit te voeren.
+						Je kan met Seahorse; PGP en SSH\index{SSH} sleutels maken en beheren, publiceren en 								terughalen van sleutels op de servers, een passphrase cachen, 											sleutelhanger backuppen, enz...
 					\begin{center}
 						\includegraphics[scale=0.4]{Pictures/Seahorse}
 					\end{center}
@@ -255,33 +263,10 @@
 			ontgrendelt kan worden voor gebruik. Als er dan een wachtwoord wordt ingesteld op een
 			website of applicatie, Zal er worden gevraagd deze op te slaan in je sleutelhanger.
 			Als de gebruiker dit toestaat, wordt deze geincrypteerd toegevoegd aan je sleutelhanger.
-						
-		\section{Belangrijke woorden}\label{Belangrijke woorden}
-			\begin{table}[!ht]
-				\begin{center}
-					\begin{tabular}{l|l}
-						Jabber-client		&	Een messaging applicatie\\ 
-						Cross-platform		&	Werkend op ieder operatie systeem\\
-						Multi-user			&	Kan door meerdere, tegelijk gebruikt worden\\
-						Passphrase			&	Een wachtwoord\\
-						GUI					&	Grafic User Interface\\
-						PGP					&	\\
-						SSH					&	\\
-					\end{tabular}
-				\end{center}
-				\caption{Belangrijke woorden}
-			\end{table}
 
 		\newpage
 		\bibliography{myBib}
-			$http://www.jumaros.de/rsoft/index.html$ \\
-			$http://www.gnupg.org/related_software/frontends.en.html$ \\
-			$http://www.google.be$\\
-			$http://utils.kde.org/projects/kgpg/$\\
-			$http://projects.gnome.org/seahorse/$\\
-			$http://tex.stackexchange.com/questions/8652/what-does-t-and-ht-mean$\\
-			$http://www.madboa.com/geek/gpg-quickstart/$\\
-			
-			
+		\newpage
+		\printindex \label{Index}			
 
 \end{document}

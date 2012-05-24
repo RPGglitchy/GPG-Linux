@@ -1,3 +1,4 @@
+\select@language {dutch}
 \contentsline {section}{\numberline {1}Introductie}{4}
 \contentsline {paragraph}{Benadering}{4}
 \contentsline {section}{\numberline {2}GPG}{5}
@@ -22,4 +23,3 @@
 \contentsline {paragraph}{KGpg}{14}
 \contentsline {paragraph}{Seahorse}{14}
 \contentsline {paragraph}{Wija}{15}
-\contentsline {section}{\numberline {3}Belangrijke woorden}{16}

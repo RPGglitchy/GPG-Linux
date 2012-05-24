@@ -1,47 +1,45 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: GPG.aux
 The style file: plain.bst
-I found no \citation commands---while reading file GPG.aux
 Database file #1: myBib.bib
-You've used 0 entries,
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            497 strings with 3984 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            526 strings with 4524 characters,
+and the built_in function-call counts, 1511 in all, are:
+= -- 147
+> -- 49
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 21
+- -- 14
+* -- 37
+:= -- 261
+add.period$ -- 28
+call.type$ -- 7
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 7
+duplicate$ -- 49
+empty$ -- 155
+format.name$ -- 14
+if$ -- 330
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 7
 missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 45
+num.names$ -- 14
+pop$ -- 70
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 21
 quote$ -- 0
-skip$ -- 1
+skip$ -- 35
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 35
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 28
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+while$ -- 14
+width$ -- 8
+write$ -- 79

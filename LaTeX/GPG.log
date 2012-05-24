@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  21 MAY 2012 21:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  24 MAY 2012 13:54
 entering extended mode
  %&-line parsing enabled.
 **GPG.tex
@@ -22,6 +22,36 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/dutch.ldf
+Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Dutch'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@dutch = a dialect from \language0
+Package babel Info: Making " an active character on input line 132.
+)) (/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `GPG.idx'.
+
+
+Writing index file GPG.idx
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 (/usr/share/texmf-texlive/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 285.
@@ -51,10 +81,10 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count87
+\Gread@gobject=\count88
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
@@ -69,48 +99,48 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ) (./GPG.aux)
 \openout1 = `GPG.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
+\scratchcounter=\count89
+\scratchdimen=\dimen106
 \scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
+\nofMPsegments=\count90
+\nofMParguments=\count91
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen107
+\MPnumerator=\count93
 \everyMPtoPDFconversion=\toks16
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 24.
+(Font)              <14.4> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 29.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GPG.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 5.
 )
-\tf@toc=\write3
-\openout3 = `GPG.toc'.
+\tf@toc=\write4
+\openout4 = `GPG.toc'.
 
 
 
@@ -120,36 +150,45 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2] (./GPG.lof)
-\tf@lof=\write4
-\openout4 = `GPG.lof'.
+\tf@lof=\write5
+\openout5 = `GPG.lof'.
 
  (./GPG.lot)
-\tf@lot=\write5
-\openout5 = `GPG.lot'.
+\tf@lot=\write6
+\openout6 = `GPG.lot'.
 
- [3] [4]
-Overfull \hbox (2.11537pt too wide) in paragraph at lines 51--58
+ [3]
+
+LaTeX Warning: Reference `Index' on page 4 undefined on input line 43.
+
+[4]
+Overfull \hbox (2.11537pt too wide) in paragraph at lines 56--63
 \OT1/cmr/m/n/12 Maar na het schri-jven van de nodige bood-schap, wordt er een '
 sleu-tel' gekozen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--58
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
 
  []
 
 [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 117--129
+[7]
+Overfull \hbox (15.2794pt too wide) in paragraph at lines 88--97
+[] \OT1/cmr/m/n/12 [2] [] 
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 123--135
 
  []
 
@@ -165,7 +204,7 @@ File: Pictures/Sleutel2.png Graphic file (type png)
 File: Pictures/Sleutel3.png Graphic file (type png)
 
 <use Pictures/Sleutel3.png>
-Underfull \hbox (badness 10000) in paragraph at lines 140--149
+Underfull \hbox (badness 10000) in paragraph at lines 145--155
 
  []
 
@@ -173,24 +212,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--149
 File: Pictures/Encryptie.png Graphic file (type png)
 
 <use Pictures/Encryptie.png>
-Underfull \hbox (badness 10000) in paragraph at lines 158--168
-
- []
-
-
-Overfull \hbox (15.13223pt too wide) in paragraph at lines 172--181
+Overfull \hbox (15.13223pt too wide) in paragraph at lines 179--188
  [] 
  []
 
 [9] [10 <./Pictures/Sleutel1.png (PNG copy)> <./Pictures/Sleutel2.png (PNG copy
 )> <./Pictures/Sleutel3.png (PNG copy)>]
-Underfull \hbox (badness 1168) in paragraph at lines 187--188
+Underfull \hbox (badness 1168) in paragraph at lines 195--196
  \OT1/cmr/bx/n/12 Cryp-to-phane[] \OT1/cmr/m/n/12 Deze wordt ge-bruikt om te en
 -crypteren, de-crypteren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
@@ -206,7 +240,7 @@ File: Pictures/gajim.jpeg Graphic file (type jpg)
 File: Pictures/gpgshell.png Graphic file (type png)
 
 <use Pictures/gpgshell.png>
-Underfull \hbox (badness 6542) in paragraph at lines 211--212
+Underfull \hbox (badness 6542) in paragraph at lines 219--220
  \OT1/cmr/bx/n/12 GPA[] \OT1/cmr/m/n/12 GPA probeert de stan-daard fron-tend te
  zijn voor GPG.
  []
@@ -233,36 +267,41 @@ LaTeX Warning: Text page 12 contains only floats.
 LaTeX Warning: Text page 13 contains only floats.
 
 [13 <./Pictures/gpgshell.png (PNG copy)> <./Pictures/GPA.png (PNG copy)>]
-[14 <./Pictures/kgpg.png> <./Pictures/Seahorse.jpg>] [15 <./Pictures/wija.png (
-PNG copy)>] [16
-
-] (./GPG.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 277--284
-
+(./GPG.bbl [14 <./Pictures/kgpg.png> <./Pictures/Seahorse.jpg>] [15 <./Pictures
+/wija.png (PNG copy)>]
+Underfull \hbox (badness 3713) in paragraph at lines 16--20
+[]\OT1/cmr/m/n/12 Anoniem.  GPG snel-start.  web-site.  $\OT1/cmtt/m/n/12 www .
+ madboa . com / geek /
  []
 
-[17] (./GPG.aux) ) 
+) [16
+
+] (./GPG.ind [17
+
+
+]) (./GPG.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1231 strings out of 495061
- 15469 string characters out of 1182621
- 69455 words of memory out of 3000000
- 4419 multiletter control sequences out of 15000+50000
- 8808 words of font info for 31 fonts, out of 3000000 for 9000
+ 1659 strings out of 495061
+ 20574 string characters out of 1182621
+ 77932 words of memory out of 3000000
+ 4825 multiletter control sequences out of 15000+50000
+ 8977 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,10n,43p,346b,264s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb>
-Output written on GPG.pdf (17 pages, 708554 bytes).
+ 27i,10n,43p,365b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+>
+Output written on GPG.pdf (17 pages, 715624 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
