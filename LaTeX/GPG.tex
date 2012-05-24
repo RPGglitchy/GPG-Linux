@@ -40,57 +40,56 @@
 			GPG wordt uitgelegd in Sectie ~\ref{Wat}.
 			Hierin wordt de werking en uitvoer via command-line benaderd in secties ~\ref{CLI} en ~\ref{Werk}.
 			Ook zijn er Grafische applicaties die met GPG werken. Deze worden benaderd in secties ~\ref{GUI} en ~\ref{Frontend}.
-			In de bijlagen sectie ~\ref{Bijlagen} wordt uitgelegd hoe een versiebeheersysteem ingesteld word(~\ref{Git})
-			, een mailserver geconfigureerd (~\ref{Mail}) en een script voor een mail te verzenden (~\ref{Script}).
+			In de bijlagen sectie ~\ref{Bijlagen} wordt uitgelegd hoe een versiebeheersysteem ingesteld(~\ref{Git}), een mailserver(~\ref{Mail}) 
+			en een script voor een mail te verzenden (~\ref{Script}) geconfigureerd worden.
 			
 
 		\newpage
 		\section{GPG}\label{GPG}
 			\subsection{Geschiedenis}\label{Geschiedenis}
-				Er is altijd wel een probleem met boodschappen verzenden en ontvangen, zonder dat men deze kunnen onderscheppen en lezen. Hier zijn handige uitvindingen voor ontworpen, 								die helpen bij dit probleem.
+				Er is altijd wel een probleem met boodschappen verzenden en ontvangen, zonder dat men deze kan onderscheppen en lezen. Hier zijn handige uitvindingen voor ontworpen, 								die helpen bij dit probleem.
 
 			\paragraph{Scytale}
-				In de tijd van de romeinen had men een manier nodig om berichten te versturen naar geallieerde troepen. Verzender en ontvanger waren in het bezit van een 												'Scytale'\index{Scytale} van ieder dezelfde grootte. Dit voorwerp was een soort van cilinder. Hier werd een riem over gewikkeld en een boodschap op geschreven.\\
-				Bij het verwijderen van de riem, was deze tekst onleesbaar zonder behulp van de Scytale. De letters waren namelijk door mekaar. Bij ontvangst van de riem bij de 										troepen, wikkelde ze de riem over de Scytale die zij bezitte en was het zo mogelijk, de boodschap te lezen.\\
+				In de tijd van de romeinen had men een manier nodig om berichten te versturen naar geallieerde troepen. Verzender en ontvanger waren in het bezit van een 												\textquotedblleft Scytale\textquotedblright\index{Scytale} van ieder dezelfde grootte. Dit voorwerp was een soort van cilinder. Hier werd een riem over gewikkeld en een boodschap 						opgeschreven.\\
+				Bij het verwijderen van de riem was deze tekst onleesbaar zonder behulp van de Scytale. De letters waren namelijk door elkaar. Bij ontvangst van de riem bij de 										troepen wikkelden ze de riem over de Scytale die zij bezitten en was het zo mogelijk om de boodschap te lezen.\\
 				Dit was een soort van encryptie. Ervoor zorgen dat een onderschepper, de boodschap niet kan lezen.
-
 			\paragraph{Caesar methode}
 				Een andere encryptiemethode was de Caesar methode.\\
-				Deze bestond uit een zin hervormen m.b.v. het alphabet.\\ 
+				Deze bestond uit een zin hervormen m.b.v. het alfabet.\\ 
 				Dit klinkt natuurlijk zeer logisch.
-				Het alphabet wordt namelijk gebruikt om zinnen te schrijven.\\
-				Maar na het schrijven van de nodige boodschap, wordt er een 'sleutel' gekozen. Deze sleutel is een afgesproken cijfer tussen 1 en 26, tussen beide partijen.\\
-				Belangrijk is dat de cijfers overeenkomen met een letter uit het alphabet. Als het gekozen cijfer 6 is, Wordt het alphabet 6 maal naar links verschoven. A wordt dan F 									en B wordt dan G, enz...\\
-				De ontvanger krijgt dan een wirwar van letters en kan deze ontcijferen door het alphabet terug te vormen door het 6 maal naar rechts te verschuiven.\\
+				Het alfabet wordt namelijk gebruikt om zinnen te schrijven.\\
+				Maar na het schrijven van de nodige boodschap, wordt er een \textquotedblleft sleutel\textquotedblright gekozen. Deze sleutel is een afgesproken cijfer tussen 1 en 26, tussen beide 					partijen.\\
+				Belangrijk is dat de cijfers overeenkomen met een letter uit het alfabet. Als het gekozen cijfer 6 is, wordt het alfabet 6 maal naar links verschoven. A wordt dan F 									en B wordt dan G, etc..\\
+				De ontvanger krijgt dan een wirwar van letters en kan deze ontcijferen door het alfabet terug te vormen door het 6 maal naar rechts te verschuiven.\\
 
 			\newpage
 			\paragraph{Heden}
-				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee geevolueerd naar de toekomst.\\
+				Tegenwoordig worden loopjongens niet meer gebruikt. Men is mee ge\"evolueerd naar de toekomst.\\
 				Technologie is nu de heerser over het verzenden van boodschappen.
-				Mailen, accounts aanmaken, bestanden opslaan, enz... Gebeurt iedere dag. Dit moet dan ook beveiligd worden.\\
+				Mailen, accounts aanmaken, bestanden opslaan, etc.. Gebeurt iedere dag. Dit moet dan ook beveiligd worden.\\
 				Dit doen we aan de hand van het encrypteren\index{Encrypteren} van de bestanden, handtekenen van mails,
-				enz...
+				etc..
 				Een manier voor encryptie is GPG.
 
 			\newpage
 			\subsection{Wat is GPG?}\label{Wat}
-				GPG of GnuPG staat voor; Gnu Privacy Guard. Zoals de naam al voorstelt, is het om de privacy van gebruikers te beschermen. Dit doormiddel van encryptie van; boodschappen 								die verzonden moeten worden zoals mails, data encrypteren, 'sleutelhangers', enz... \\
-				GnuPG is een commando voor de terminal, Te zien in Subsectie~\ref{CLI}, maar er zijn dergelijke frontend\index{Frontend} programma's om deze in een grafische applicatie te kunnen 						gebruiken. Te zien in Subsectie~\ref{GUI}
+				GPG of GnuPG staat voor: Gnu Privacy Guard. Zoals de naam al voorstelt, is het om de privacy van gebruikers te beschermen. Dit doormiddel van encryptie van boodschappen 								die verzonden moeten worden zoals mails, data encrypteren, \textquotedblleft sleutelhangers\textquotedblright, etc.. \\
+				GnuPG is een commando voor de terminal, zoals te zien in Subsectie~\ref{CLI}, maar er zijn dergelijke frontend\index{Frontend} programma's om deze in een grafische applicatie te 						kunnen gebruiken. Te zien in Subsectie~\ref{GUI}
 
 			\subsection{GPG in command-line interface (CLI)}\label{CLI}
 				Zoals ieder ander commando, heeft GPG ook zijn nodige syntax\index{Syntax}.\\
 				\begin{center}
 					$gpg  [--homedir name]  [--options file]  [options]  command  [args]$\\
 				\end{center}
-				Het command 'GPG' heeft een enorm aantal aan opties. In 'man gpg' worden de opties weergegeven, met de nodige uitleg.\\
-				In subsecties ~\ref{com}, ~\ref{opt}, ~\ref{use}, worden voorbeelden weergegeven van welke er het meest gebruikt worden.\\
+				Het commando \textquotedblleft GPG\textquotedblright heeft een enorm aantal opties. In \textquotedblleft man gpg\textquotedblright worden de opties weergegeven met de nodige uitleg.\\
+				In subsecties ~\ref{com}, ~\ref{opt} en ~\ref{use} worden voorbeelden weergegeven van welke er het meest gebruikt worden.\\
 				
 				\newpage
 				\subsubsection{Voorbeelden van vaak gebruikte commando's}\label{com}
 					\begin{table}[!ht] \cite{Commando}
 						\begin{tabular}{l|l}
 								-c				&	Symmetrische encryptie, vraagt voor passphrase\index{Passphrase}.\\
-								--decrypt			&	Decryptie\index{Decryptie} van geëncrypteerde bestanden.\\
+								--decrypt			&	Decryptie\index{Decryptie} van ge\"encrypteerde bestanden.\\
 								--encrypt			&	Encryptie van data. Wordt gecombineerd met -sign.\\
 								-sign				&	Maakt handtekening, wordt gecombineerd met --encrypt.\\
 								--encrypt-files	&	Encryptie van meerdere bestanden in 1 commando.\\
@@ -100,9 +99,9 @@
 					
 				\subsubsection{Voorbeelden van vaak gebruikte opties}\label{opt}\cite{Commando}					
 						\begin{tabular}{l|l}
-								-o file				&	Schrijft output naar 'file'.\\
+								-o file				&	Schrijft output naar \textquotedblleft file\textquotedblright.\\
 								--default-key name	&	Standaard waarde voor ID encryptie.\\
-								-r name				&	Encryptie naar ontvanger 'name'.\\
+								-r name				&	Encryptie naar ontvanger \textquotedblleft name\textquotedblright.\\
 								-v					&	Verbose\index{Verbose}, geeft meer info tijdens het proces.\\
 								-i					&	Interactief, geeft prompts\index{Prompts} voor iedere stap.\\
 						\end{tabular}\caption{Vaak gebruikte opties}
@@ -125,12 +124,12 @@
 				Om een bestand te kunnen encrypteren, is een sleutel vereist.\\
 				Deze moet als initieele stap worden aangemaakt met het commando:\\
 				gpg --gen-key\\
-				Bij het gebruik van dit commando, worden veel vragen gesteld ter configuratie.\\
+				Bij het gebruik van dit commando worden veel vragen gesteld ter configuratie.\\
 				-type van sleutel, -grootte, -vervaldatum, -identificatie.\\
-				Na het ingeven van deze waardes, wordt er gevraagd naar een Passphrase.
+				Na het ingeven van deze waardes wordt er gevraagd naar een Passphrase.
 				Deze is zeer belangrijk te onthouden.\\
 				Door het commando:\\
-				' gpg --armor --output pubkey.txt --export 'Naam' '\\
+				\textquotedblleft  gpg --armor --output pubkey.txt --export 'Naam' \textquotedblright\\
 				te gebruiken, zal een uitvoer gemaakt worden van deze public key naar textbestand,
 				om deze te kunnen verzenden naar de gewenste contacten.\\
 				Zie figuur ~\ref{Terminal}\\
@@ -145,11 +144,11 @@
 				\end{figure}
 				
 				\paragraph{Encryptie en decryptie} \cite{GPGstart}
-				gpg --encrypt --recipient 'Naam' test.txt\\
-				Door dit commando te gebruiken, zal het bestand 'test.txt' geëncrypteerd worden
+				gpg --encrypt --recipient \textquotedblleft Naam\textquotedblright test.txt\\
+				Door dit commando te gebruiken, zal het bestand \textquotedblleft test.txt\textquotedblright ge\"encrypteerd worden
 				met de sleutel van *Naam*.\\
-				Na het gebruik van dit commando, werd het bestand 'test.txt' geëncrypteerd naar
-				'test.txt.gpg'.
+				Na het gebruik van dit commando, werd het bestand \textquotedblleft test.txt\textquotedblright ge\"encrypteerd naar
+				\textquotedblleft test.txt.gpg\textquotedblright.
 				Als er gewenst wordt, dit bestand te decrypteren, dan gebruiken we het volgende 
 				commando:\\
 				gpg --output test.txt --decrypt test.txt.gpg\\
@@ -165,14 +164,14 @@
 				\paragraph{}
 				De voorgaande methode is bestemd voor persoonlijk gebruik.\\
 				Om te encrypteren naar andere contacten maken we gebruik van het commando 
-				'importeren': gpg --import key.asc\\
-				In dit commando geld dat 'key' de sleutel is van de persoon die gecontacteerd
+				\textquotedblleft importeren\textquotedblright: gpg --import key.asc\\
+				In dit commando geldt dat \textquotedblleft key\textquotedblright de sleutel is van de persoon die gecontacteerd
 				moet worden.\\
-				Een andere mogelijkheid is deze sleutel zoeken op een publieke website;\\
-				gpg --search-keys 'myfriend@his.isp.com' --keyserver hkp://subkeys.pgp.net\\
+				Een andere mogelijkheid is deze sleutel zoeken op een publieke website:\\
+				gpg --search-keys \textquotedblleft myfriend@his.isp.com\textquotedblright --keyserver hkp://subkeys.pgp.net\\
 				Bij het encrypteren van een bestand, wordt er gebruik gemaakt van dezelfde commando,
 				als bij persoonlijk gebruik, maar met een verschillende sleutel.\\
-				gpg --encrypt --recipient 'myfriend@his.isp.net' test.txt\\		
+				gpg --encrypt --recipient \textquotedblleft myfriend@his.isp.net\textquotedblright test.txt\\		
 				\cite{GPGstart}
 			
 			\subsection{Frontend GPG programma's}\label{GUI} \cite{Frontend} 
@@ -202,7 +201,7 @@
 				
 					\paragraph{Gajim}
 						Gajim is een Jabber-client. Een Jabber-client is een messaging applicatie.
-						Omdat Gajim werkt met GnuPG, zullen de berichten die verzonden worden met Gajim, geëncrypteerd worden.
+						Omdat Gajim werkt met GnuPG, zullen de berichten die verzonden worden met Gajim, ge\"encrypteerd worden.
 					\begin{center}
 						\includegraphics[scale=0.4]{Pictures/gajim}
 					\end{center}
@@ -236,7 +235,7 @@
 				
 					\paragraph{Seahorse} \cite{Seahorse}
 						Seahorse is een GUI voor GNOME. Het is ook geïntegreerd in Nautilus\index{Nautilus}, gedit en andere applicaties voor encryptie uit te voeren.
-						Je kan met Seahorse; PGP en SSH\index{SSH} sleutels maken en beheren, publiceren en terughalen van sleutels op de servers, een passphrase opslaan in het cache geheugen, 								sleutelhanger backuppen, enz...
+						De gebruiker kan met Seahorse PGP en SSH\index{SSH} sleutels maken en beheren, publiceren en terughalen van sleutels op de servers, een passphrase opslaan in het cache 								geheugen, sleutelhanger backuppen, etc..
 					\begin{center}
 						\includegraphics[scale=0.4]{Pictures/Seahorse}
 					\end{center}
@@ -260,11 +259,11 @@
 			Als de Frontend gebruik maakt van een messaging applicatie (Jabber-client),
 			Houdt dit meestal in dat de gebruiker een handtekening instelt in de GUI,
 			zodat deze gebruikt wordt bij het encrypteren van de boodschappen.\\
-			Als de GUI een sleutelhanger-functie heeft, zal er een instelling van een 'Passphrase'
+			Als de GUI een sleutelhanger-functie heeft, zal er een instelling van een \textquotedblleft Passphrase\textquotedblright
 			Voorzien zijn bij de initieele stappen. Deze passphrase zorgt ervoor dat de sleutelhanger
 			ontgrendelt kan worden voor gebruik. Als er dan een wachtwoord wordt ingesteld op een
 			website of applicatie, Zal er worden gevraagd deze op te slaan in je sleutelhanger.
-			Als de gebruiker dit toestaat, wordt deze geëncrypteerd toegevoegd aan je sleutelhanger.
+			Als de gebruiker dit toestaat, wordt deze ge\"encrypteerd toegevoegd aan je sleutelhanger.
 			
 		\newpage
 		\bibliography{myBib}
@@ -279,10 +278,10 @@
 				\subsubsection{Registratie}
 					De eerste stap om een versiebeheersysteem te kunnen aanmaken, is het registreren op een website die versiebeheersysteem beheert.\\
 					$www.github.com$ Is een beheerder van versiebeheersystemen.\\
-					Bij het registreren op Github, wordt er nadien een ronde gedaan om te helpen bij het configureren van iemand's bewaarplaats.
+					Bij het registreren op Github wordt er nadien een ronde gedaan om te helpen bij het configureren van iemands bewaarplaats.
 					
 				\subsubsection{Configuratie}
-					Via 'Synaptic Package Manager' Is het nodig, bepaalde pakketen te downloaden. Namelijk; 'git-core', 'git-doc', 'git-gui'.\\
+					Via \textquotedblleft Synaptic Package Manager\textquotedblright is het nodig, bepaalde pakketen te downloaden, namelijk: \textquotedblleft git-core\textquotedblright, 								\textquotedblleft git-doc\textquotedblright, \textquotedblleft git-gui\textquotedblright.\\
 					Github maakt gebruikt van SSH sleutels voor een veilige connectie.\\
 					Met de volgende commando's in de terminal, wordt er een eigen SSH sleutel aangemaakt.\\
 					Eerst, bestaande SSH sleutels backuppen en verwijderen.\\
@@ -300,10 +299,10 @@
 					 Na ingave van de passphrase is de SSH sleutel ingesteld.\\
 					Deze sleutel moet toegevoegd worden in github. De volgende stappen laten zien hoe dat gebeurd.\\
 					 Open id-rsa.pub en kopieer de inhoud van dit bestand.\\
-					 In de tab 'Instellingen' op Github, bij 'SSH Keys' is het mogelijk een Sleutel toe te voegen.\\
-					 Bij het drukken op 'Add SSH key' kan de gekopieerde text toegevoegd worden en opgeslaan.\\
+					 In de tab \textquotedblleft Instellingen\textquotedblright op Github, bij \textquotedblleft SSH Keys\textquotedblright is het mogelijk een Sleutel toe te voegen.\\
+					 Bij het drukken op \textquotedblleft Add SSH key\textquotedblright kan de gekopieerde tekst toegevoegd worden en opgeslaan.\\
 					 \\
-					 Het versiebeheersysteem kan met de SSH sleutel nu getest worden door het volgende commando;\\
+					 Het versiebeheersysteem kan met de SSH sleutel nu getest worden door het volgende commando:\\
 					 \\
 					 ssh -T git@github.com\\
 					 \\
@@ -320,24 +319,24 @@
 				\newpage
 				\subsubsection{Git commando's}
 					Nadat het versiebeheersysteem correct is geconfigureerd, kan er een bewaarplaats worden aangemaakt.\\
-					Door op 'New repository' te klikken is het mogelijk een bewaarplaats aan te maken in een bestaand account.\\
+					Door op \textquotedblleft New repository\textquotedblright te klikken is het mogelijk een bewaarplaats aan te maken in een bestaand account.\\
 					Met behulp van volgende commando's, kunnen bestanden in een bepaald pad worden toegevoegd aan de git.\\
 					\\
 					 mkdir ~/Hello-World\\
 					 cd ~/Hello-World\\
 					 git init\\
 					 \\
-					 Door git init, wordt een connectie geinitialiseerd tussen github en het pad.\\
+					 Door git init, wordt een connectie ge\"initialiseerd tussen github en het pad.\\
 					 Als er nu bestanden worden toegevoegd in deze map, kan er met de volgende commando's, bestanden toegevoegd worden aan git.\\
 					 \\
 					  git status (laat zien welke bestanden verandert zijn)\\
 					  git add *naam (voegt bestand met naam *naam toe)\\
-					  git commit -m 'boodschap voor verandering'\\
+					  git commit -m \textquotedblleft boodschap voor verandering\textquotedblright\\
 					  git remote add origin git@github.com:gebruikersnaam/Hello-World.git\\
 					  git push -u origin master (eerst een origin master aanmaken voor een beheer op afstand)\\
 					  \\
-					  Nadat er voor het eerst een origin master wordt aangemaakt en 'pushed',\\
-					  Zal er in de toekomst enkel 'git push' gebruikt kunnen worden.
+					  Nadat er voor het eerst een origin master wordt aangemaakt en \textquotedblleft pushed\textquotedblright,\\
+					  Zal er in de toekomst enkel \textquotedblleft git push\textquotedblright gebruikt kunnen worden.
 			
 			\newpage
 			\subsection{Mailserver configuratie}\label{Mail}
@@ -350,8 +349,8 @@
 					Mutt is nu succesvol geïnstalleerd.
 					
 				\subsubsection{Configuratie}
-					Ter configuratie moet een bestand '.muttrc' aangemaakt worden in de homefolder.\\
-					Dit bestand moet de volgende inhoud bevatten;\\
+					Ter configuratie moet een bestand \textquotedblleft .muttrc\textquotedblright aangemaakt worden in de homefolder.\\
+					Dit bestand moet de volgende inhoud bevatten:\\
 						\\
 						set imap\_user = \textquotedblleft username@gmail.com"\\
 						set imap\_pass = "password"\\
@@ -371,7 +370,7 @@
 						\\
 						set move = no\\
 						\\
-					In dit bestand moeten de 'username', 'password' en 'Your Real Name' gepersonaliseerd worden.\\
+					In dit bestand moeten de \textquotedblleft username\textquotedblright, \textquotedblleft password\textquotedblright en \textquotedblleft Your Real Name\textquotedblright 								gepersonaliseerd worden.\\
 			\cite{Mail}
 					
 			\subsection{Bash-script}\label{Script}
