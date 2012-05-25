@@ -15,19 +15,43 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{Chari Karipidis}
+\lhead{Chari \textsc{Karipidis}}
 \chead{}
 \rhead{2TinG}
 \lfoot{}
 \cfoot{\thepage}
-\rfoot{xname}
+\rfoot{Chari \textsc{Karipidis}}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
 \bibliographystyle{plain}
 
 
 \begin{document}
-	\maketitle
+	\begin{titlepage}
+		\begin{center}
+			\textsc{\LARGE Provinciale Hogeschool Limburg}\\[1.5cm]
+			\textsc{\large Linux}\\[0.5cm]
+			\HRule \\[0.4cm]
+			{\huge \bfseries GPG in Linux}\\[0.4cm]
+			\HRule \\[1.5cm]
+			
+			\begin{minipage}{0.4\textwidth}
+			\begin{flushleft} \large
+			\emph{Author:}\\
+			Chari \textsc{Karipidis} 
+			\end{flushleft}
+			\end{minipage}
+			\begin{minipage}{0.4\textwidth}
+			\begin{flushright} \large
+			\emph{Reviewer:}\\
+			Chari \textsc{Karipidis} 
+			\end{flushright}
+			\end{minipage}
+			\vfill
+			{\large \today}
+		\end{center}
+	\end{titlepage}
 
 	\newpage
 	\tableofcontents
@@ -375,6 +399,17 @@
 			\cite{Mail}
 					
 			\subsection{Bash-script}\label{Script}
-				\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{Mailreviewer.sh}
+				\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{Mailreviewer.sh} 
+				\paragraph{Script}				
+				Het script zal respectievelijk de aanspreking, voornaam, naam, e-mailadres en het pad naar de .tex file vragen.\\
+				Na ingave wordt er een controle uitgevoerd op de gegevens.\\
+				Er wordt een backup gemaakt van het .tex bestand om fouten te vermijden.\\
+				Door het \textquotedblleft sed\textquotedblright commando wordt een gegeven stuk tekst vervangen door een ander stuk tekst.\
+				In dit geval wordt \textquotedblleft Xname\textquotedblright vervangen door \textquotedblleft naam + voornaam \textquotedblright .\\
+				Om dit te laten verschijnen in de pdf, gebruikt het script de \textquotedblleft pdflatex\textquotedblright commando. \\
+				Heel de directory van LaTex wordt als volgt Gearchiveerd. Hier wordt een uitvoer geschreven naar een tekstbestand.\\
+				De gebruiker krijgt de optie om een bericht toe te voegen aan de mail, voor deze verzonden wordt.\\
+				Na het succesvol verzenden, worden de tijdelijke bestanden (Zip en tekstbestanden) verwijdert.\\
+				Ten slotte wordt de optie voorgelegd om de backup terug te plaatsen als origineel bestand.\\
 
 \end{document}

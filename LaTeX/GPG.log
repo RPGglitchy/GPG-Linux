@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  24 MAY 2012 19:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  25 MAY 2012 13:20
 entering extended mode
  %&-line parsing enabled.
 **GPG.tex
@@ -110,18 +110,18 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ) (./GPG.aux)
 \openout1 = `GPG.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -137,19 +137,14 @@ LaTeX Font Info:    ... okay on input line 29.
 \everyMPtoPDFconversion=\toks16
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 30.
+(Font)              <12> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <8> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 44.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GPG.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
-)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GPG.toc)
 \tf@toc=\write5
 \openout5 = `GPG.toc'.
 
@@ -160,116 +155,116 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]
-Overfull \hbox (4.72646pt too wide) in paragraph at lines 58--65
+[1] [2]
+Overfull \hbox (4.72646pt too wide) in paragraph at lines 82--89
 \OT1/cmr/m/n/12 Maar na het schri-jven van de nodige bood-schap, wordt er een \
 sleu-tel"gekozen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--65
+Underfull \hbox (badness 10000) in paragraph at lines 82--89
 
  []
 
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-[6]
-Overfull \hbox (11.36278pt too wide) in paragraph at lines 90--99
+[5]
+Overfull \hbox (11.36278pt too wide) in paragraph at lines 114--123
 [] \OT1/cmr/m/n/12 [1] [] 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 125--137
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 149--161
 
  []
 
-<Pictures/Sleutel1.png, id=30, 714.67pt x 728.7225pt>
+<Pictures/Sleutel1.png, id=31, 714.67pt x 728.7225pt>
 File: Pictures/Sleutel1.png Graphic file (type png)
 
 <use Pictures/Sleutel1.png>
-<Pictures/Sleutel2.png, id=31, 673.51625pt x 273.02pt>
+<Pictures/Sleutel2.png, id=32, 673.51625pt x 273.02pt>
 File: Pictures/Sleutel2.png Graphic file (type png)
 
 <use Pictures/Sleutel2.png>
-<Pictures/Sleutel3.png, id=32, 659.46375pt x 41.15375pt>
+<Pictures/Sleutel3.png, id=33, 659.46375pt x 41.15375pt>
 File: Pictures/Sleutel3.png Graphic file (type png)
 
 <use Pictures/Sleutel3.png>
-Underfull \hbox (badness 10000) in paragraph at lines 147--157
+Underfull \hbox (badness 10000) in paragraph at lines 171--181
 
  []
 
-<Pictures/Encryptie.png, id=33, 653.44125pt x 197.73875pt>
+<Pictures/Encryptie.png, id=34, 653.44125pt x 197.73875pt>
 File: Pictures/Encryptie.png Graphic file (type png)
 
 <use Pictures/Encryptie.png>
-Overfull \hbox (15.13223pt too wide) in paragraph at lines 181--190
+Overfull \hbox (15.13223pt too wide) in paragraph at lines 205--214
  [] 
  []
 
-[8] [9 <./Pictures/Sleutel1.png (PNG copy)> <./Pictures/Sleutel2.png (PNG copy)
+[7] [8 <./Pictures/Sleutel1.png (PNG copy)> <./Pictures/Sleutel2.png (PNG copy)
 > <./Pictures/Sleutel3.png (PNG copy)>]
-Underfull \hbox (badness 1168) in paragraph at lines 197--198
+Underfull \hbox (badness 1168) in paragraph at lines 221--222
  \OT1/cmr/bx/n/12 Cryp-to-phane[] \OT1/cmr/m/n/12 Deze wordt ge-bruikt om te en
 -crypteren, de-crypteren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-<Pictures/cryptophane.jpg, id=40, 478.78876pt x 198.7425pt>
+<Pictures/cryptophane.jpg, id=41, 478.78876pt x 198.7425pt>
 File: Pictures/cryptophane.jpg Graphic file (type jpg)
 
 <use Pictures/cryptophane.jpg>
-<Pictures/gajim.jpeg, id=41, 753.81625pt x 501.875pt>
+<Pictures/gajim.jpeg, id=42, 753.81625pt x 501.875pt>
 File: Pictures/gajim.jpeg Graphic file (type jpg)
 
 <use Pictures/gajim.jpeg>
-<Pictures/gpgshell.png, id=42, 495.12639pt x 392.1032pt>
+<Pictures/gpgshell.png, id=43, 495.12639pt x 392.1032pt>
 File: Pictures/gpgshell.png Graphic file (type png)
 
 <use Pictures/gpgshell.png>
-Underfull \hbox (badness 6542) in paragraph at lines 221--222
+Underfull \hbox (badness 6542) in paragraph at lines 245--246
  \OT1/cmr/bx/n/12 GPA[] \OT1/cmr/m/n/12 GPA probeert de stan-daard fron-tend te
  zijn voor GPG.
  []
 
-<Pictures/GPA.png, id=43, 376.40625pt x 261.97874pt>
+<Pictures/GPA.png, id=44, 376.40625pt x 261.97874pt>
 File: Pictures/GPA.png Graphic file (type png)
  <use Pictures/GPA.png>
-<Pictures/kgpg.png, id=44, 909.3975pt x 597.23125pt>
+<Pictures/kgpg.png, id=45, 909.3975pt x 597.23125pt>
 File: Pictures/kgpg.png Graphic file (type png)
  <use Pictures/kgpg.png>
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
 
-<Pictures/Seahorse.jpg, id=46, 508.94366pt x 415.29803pt>
+<Pictures/Seahorse.jpg, id=47, 508.94366pt x 415.29803pt>
 File: Pictures/Seahorse.jpg Graphic file (type jpg)
 
 <use Pictures/Seahorse.jpg>
-<Pictures/wija.png, id=47, 382.42876pt x 270.00874pt>
+<Pictures/wija.png, id=48, 382.42876pt x 270.00874pt>
 File: Pictures/wija.png Graphic file (type png)
  <use Pictures/wija.png>
-[10 <./Pictures/Encryptie.png (PNG copy)>]
+[9 <./Pictures/Encryptie.png (PNG copy)>]
+
+LaTeX Warning: Text page 10 contains only floats.
+
+[10 <./Pictures/cryptophane.jpg> <./Pictures/gajim.jpeg>]
 
 LaTeX Warning: Text page 11 contains only floats.
 
-[11 <./Pictures/cryptophane.jpg> <./Pictures/gajim.jpeg>]
-
-LaTeX Warning: Text page 12 contains only floats.
-
-[12 <./Pictures/gpgshell.png (PNG copy)> <./Pictures/GPA.png (PNG copy)>]
-(./GPG.bbl [13 <./Pictures/kgpg.png> <./Pictures/Seahorse.jpg>] [14 <./Pictures
+[11 <./Pictures/gpgshell.png (PNG copy)> <./Pictures/GPA.png (PNG copy)>]
+(./GPG.bbl [12 <./Pictures/kgpg.png> <./Pictures/Seahorse.jpg>] [13 <./Pictures
 /wija.png (PNG copy)>]
 Underfull \hbox (badness 3713) in paragraph at lines 16--20
 []\OT1/cmr/m/n/12 Anoniem.  GPG snel-start.  web-site.  $\OT1/cmtt/m/n/12 www .
@@ -286,7 +281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--46
 \OT1/cmtt/m/n/12 http : / / shreevatsa . wordpress . com / 2007 / 07 / 31 /
  []
 
-) [15
+) [14
 
 ] (./GPG.lof)
 \tf@lof=\write6
@@ -296,157 +291,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--46
 \tf@lot=\write7
 \openout7 = `GPG.lot'.
 
- [16] (./GPG.ind [17
+ [15] (./GPG.ind [16
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
-[18
+[17
 
-] [19]
-Overfull \hbox (16.60689pt too wide) in paragraph at lines 322--341
+] [18]
+Overfull \hbox (16.60689pt too wide) in paragraph at lines 346--365
 \OT1/cmr/m/n/12 Nadat het ver-siebe-heer-sys-teem cor-rect is gecon-fig-ureerd,
  kan er een be-waarplaats
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--341
+Underfull \hbox (badness 10000) in paragraph at lines 346--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--341
+Underfull \hbox (badness 10000) in paragraph at lines 346--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--341
+Underfull \hbox (badness 10000) in paragraph at lines 346--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--341
+Underfull \hbox (badness 10000) in paragraph at lines 346--365
 
  []
 
-[20]
+[19]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--351
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--351
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--376
+Underfull \hbox (badness 10000) in paragraph at lines 377--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--376
+Underfull \hbox (badness 10000) in paragraph at lines 377--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--376
+Underfull \hbox (badness 10000) in paragraph at lines 377--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--376
+Underfull \hbox (badness 10000) in paragraph at lines 377--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--376
+Underfull \hbox (badness 10000) in paragraph at lines 377--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--376
+Underfull \hbox (badness 10000) in paragraph at lines 377--400
 
  []
 
 
-Overfull \hbox (54.68567pt too wide) in paragraph at lines 353--376
+Overfull \hbox (54.68567pt too wide) in paragraph at lines 377--400
 \OT1/cmr/m/n/12 In dit be-stand moeten de \user-name", \pass-word"en \Your Real
  Name"gepersonaliseerd
  []
 
-[21] [22] [23] (./GPG.aux) ) 
+[20] [21]
+Overfull \hbox (20.65823pt too wide) in paragraph at lines 404--414
+\OT1/cmr/m/n/12 Om dit te laten ver-schi-j-nen in de pdf, ge-bruikt het script 
+de \pdfla-tex"commando. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--414
+
+ []
+
+[22] [23] (./GPG.aux) ) 
 Here is how much of TeX's memory you used:
- 2045 strings out of 495061
- 26506 string characters out of 1182621
- 85449 words of memory out of 3000000
- 5204 multiletter control sequences out of 15000+50000
- 9145 words of font info for 33 fonts, out of 3000000 for 9000
+ 2049 strings out of 495061
+ 26544 string characters out of 1182621
+ 85474 words of memory out of 3000000
+ 5206 multiletter control sequences out of 15000+50000
+ 10087 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,10n,43p,396b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.p
-fb>
-Output written on GPG.pdf (23 pages, 754645 bytes).
+ 35i,10n,43p,396b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on GPG.pdf (24 pages, 770479 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
