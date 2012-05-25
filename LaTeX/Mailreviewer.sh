@@ -52,7 +52,7 @@ echo "De mail wordt vestuurd naar: $email."
 mutt -s $onderwerp $email -a "$pad/$voornaam$naam.pdf" < "$pad/tempMail.txt"
 echo "De mail is succesvol verzonden naar $email."
 
-rm "$pad/zip.txt" "$pad/tempMail.txt" "$pad/$voornaam$naam.pdf"
+rm "$pad/tempMail.txt" "$pad/$voornaam$naam.pdf"
 
 read -p 'Wenst u het backup bestand terug te plaatsen? [j/n]	' backup
 
