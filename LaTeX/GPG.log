@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.15)  25 MAY 2012 15:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.15)  25 MAY 2012 16:07
 entering extended mode
  %&-line parsing enabled.
 **GPG.tex
@@ -88,11 +88,10 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/etc/texmf/tex/latex/config/graphics.cfg
 File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count91
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -122,20 +121,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
-
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen106
-\scratchbox=\box27
-\nofMPsegments=\count93
-\nofMParguments=\count94
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen107
-\MPnumerator=\count96
-\everyMPtoPDFconversion=\toks16
-)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -144,7 +129,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 44.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GPG.toc)
+]
+(./GPG.toc)
 \tf@toc=\write5
 \openout5 = `GPG.toc'.
 
@@ -186,32 +172,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--161
 
  []
 
-<Pictures/Sleutel1.png, id=31, 714.67pt x 728.7225pt>
-File: Pictures/Sleutel1.png Graphic file (type png)
 
-<use Pictures/Sleutel1.png>
-<Pictures/Sleutel2.png, id=32, 673.51625pt x 273.02pt>
-File: Pictures/Sleutel2.png Graphic file (type png)
+! LaTeX Error: File `Pictures/Sleutel1' not found.
 
-<use Pictures/Sleutel2.png>
-<Pictures/Sleutel3.png, id=33, 659.46375pt x 41.15375pt>
-File: Pictures/Sleutel3.png Graphic file (type png)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 ...udegraphics[scale=0.4]{Pictures/Sleutel1}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use Pictures/Sleutel3.png>
+
+! LaTeX Error: File `Pictures/Sleutel2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...udegraphics[scale=0.4]{Pictures/Sleutel2}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `Pictures/Sleutel3' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 ...udegraphics[scale=0.4]{Pictures/Sleutel3}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 171--181
 
  []
 
-<Pictures/Encryptie.png, id=34, 653.44125pt x 197.73875pt>
-File: Pictures/Encryptie.png Graphic file (type png)
 
-<use Pictures/Encryptie.png>
+! LaTeX Error: File `Pictures/Encryptie' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 ...degraphics[scale=0.4]{Pictures/Encryptie}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7]
 Overfull \hbox (15.13223pt too wide) in paragraph at lines 205--214
  [] 
  []
 
-[7] [8 <./Pictures/Sleutel1.png (PNG copy)> <./Pictures/Sleutel2.png (PNG copy)
-> <./Pictures/Sleutel3.png (PNG copy)>]
+
 Underfull \hbox (badness 1168) in paragraph at lines 221--222
  \OT1/cmr/bx/n/12 Cryp-to-phane[] \OT1/cmr/m/n/12 Deze wordt ge-bruikt om te en
 -crypteren, de-crypteren,
@@ -222,50 +249,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-<Pictures/cryptophane.jpg, id=41, 478.78876pt x 198.7425pt>
-File: Pictures/cryptophane.jpg Graphic file (type jpg)
 
-<use Pictures/cryptophane.jpg>
-<Pictures/gajim.jpeg, id=42, 753.81625pt x 501.875pt>
-File: Pictures/gajim.jpeg Graphic file (type jpg)
+! LaTeX Error: File `Pictures/cryptophane' not found.
 
-<use Pictures/gajim.jpeg>
-<Pictures/gpgshell.png, id=43, 495.12639pt x 392.1032pt>
-File: Pictures/gpgshell.png Graphic file (type png)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 ...graphics[scale=0.6]{Pictures/cryptophane}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use Pictures/gpgshell.png>
+
+! LaTeX Error: File `Pictures/gajim' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231 ...ncludegraphics[scale=0.4]{Pictures/gajim}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `Pictures/gpgshell' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...udegraphics[scale=0.5]{Pictures/gpgshell}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Underfull \hbox (badness 6542) in paragraph at lines 245--246
  \OT1/cmr/bx/n/12 GPA[] \OT1/cmr/m/n/12 GPA probeert de stan-daard fron-tend te
  zijn voor GPG.
  []
 
-<Pictures/GPA.png, id=44, 376.40625pt x 261.97874pt>
-File: Pictures/GPA.png Graphic file (type png)
- <use Pictures/GPA.png>
-<Pictures/kgpg.png, id=45, 909.3975pt x 597.23125pt>
-File: Pictures/kgpg.png Graphic file (type png)
- <use Pictures/kgpg.png>
+
+! LaTeX Error: File `Pictures/GPA' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...\includegraphics[scale=0.6]{Pictures/GPA}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `Pictures/kgpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 ...includegraphics[scale=0.2]{Pictures/kgpg}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
 
-<Pictures/Seahorse.jpg, id=47, 508.94366pt x 415.29803pt>
-File: Pictures/Seahorse.jpg Graphic file (type jpg)
+! LaTeX Error: File `Pictures/Seahorse' not found.
 
-<use Pictures/Seahorse.jpg>
-<Pictures/wija.png, id=48, 382.42876pt x 270.00874pt>
-File: Pictures/wija.png Graphic file (type png)
- <use Pictures/wija.png>
-[9 <./Pictures/Encryptie.png (PNG copy)>]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...udegraphics[scale=0.4]{Pictures/Seahorse}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-LaTeX Warning: Text page 10 contains only floats.
 
-[10 <./Pictures/cryptophane.jpg> <./Pictures/gajim.jpeg>]
+! LaTeX Error: File `Pictures/wija' not found.
 
-LaTeX Warning: Text page 11 contains only floats.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 ...includegraphics[scale=0.7]{Pictures/wija}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[11 <./Pictures/gpgshell.png (PNG copy)> <./Pictures/GPA.png (PNG copy)>]
-(./GPG.bbl [12 <./Pictures/kgpg.png> <./Pictures/Seahorse.jpg>] [13 <./Pictures
-/wija.png (PNG copy)>]
+[8] (./GPG.bbl [9] [10]
 Underfull \hbox (badness 3713) in paragraph at lines 16--20
 []\OT1/cmr/m/n/12 Anoniem.  GPG snel-start.  web-site.  $\OT1/cmtt/m/n/12 www .
  madboa . com / geek /
@@ -281,7 +371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--46
 \OT1/cmtt/m/n/12 http : / / shreevatsa . wordpress . com / 2007 / 07 / 31 /
  []
 
-) [14
+) [11
 
 ] (./GPG.lof)
 \tf@lof=\write6
@@ -291,7 +381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--46
 \tf@lot=\write7
 \openout7 = `GPG.lot'.
 
- [15] (./GPG.ind [16
+ [12] (./GPG.ind [13
 
 
 ])
@@ -344,9 +434,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--343
 
  []
 
-[17
+[14
 
-] [18]
+] [15]
 Overfull \hbox (16.60689pt too wide) in paragraph at lines 346--365
 \OT1/cmr/m/n/12 Nadat het ver-siebe-heer-sys-teem cor-rect is gecon-fig-ureerd,
  kan er een be-waarplaats
@@ -372,7 +462,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--365
 
  []
 
-[19]
+[16]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
 
@@ -421,7 +511,7 @@ Overfull \hbox (54.68567pt too wide) in paragraph at lines 377--400
  Name"gepersonaliseerd
  []
 
-[20] [21]
+[17] [18]
 Overfull \hbox (20.65823pt too wide) in paragraph at lines 404--414
 \OT1/cmr/m/n/12 Om dit te laten ver-schi-j-nen in de pdf, ge-bruikt het script 
 de \pdfla-tex"commando. 
@@ -432,27 +522,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--414
 
  []
 
-[22] [23] (./GPG.aux) ) 
+[19] [20] (./GPG.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2049 strings out of 495061
- 26544 string characters out of 1182621
- 85477 words of memory out of 3000000
- 5206 multiletter control sequences out of 15000+50000
+ 1659 strings out of 495062
+ 20697 string characters out of 1182644
+ 77863 words of memory out of 3000000
+ 4801 multiletter control sequences out of 15000+50000
  10087 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  35i,10n,43p,396b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on GPG.pdf (24 pages, 770756 bytes).
-PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Output written on GPG.dvi (21 pages, 39488 bytes).

@@ -14,22 +14,22 @@
 \contentsline {subsection}{\numberline {2.4}Werking en uitvoer van GPG}{7}
 \contentsline {paragraph}{Encryptie en decryptie}{7}
 \contentsline {paragraph}{}{7}
-\contentsline {subsection}{\numberline {2.5}Frontend GPG programma's}{9}
-\contentsline {subsection}{\numberline {2.6}Werking van een GPG Frontend}{9}
-\contentsline {paragraph}{Cryptophane}{10}
-\contentsline {paragraph}{Gajim}{10}
-\contentsline {paragraph}{GPGshell}{11}
-\contentsline {paragraph}{GPA}{11}
-\contentsline {paragraph}{KGpg}{12}
-\contentsline {paragraph}{Seahorse}{12}
-\contentsline {paragraph}{Wija}{13}
-\contentsline {section}{\numberline {3}Bijlagen}{17}
-\contentsline {subsection}{\numberline {3.1}Versiebeheersysteem}{17}
-\contentsline {subsubsection}{\numberline {3.1.1}Registratie}{17}
-\contentsline {subsubsection}{\numberline {3.1.2}Configuratie}{17}
-\contentsline {subsubsection}{\numberline {3.1.3}Git commando's}{19}
-\contentsline {subsection}{\numberline {3.2}Mailserver configuratie}{20}
-\contentsline {subsubsection}{\numberline {3.2.1}Mailserver instellen}{20}
-\contentsline {subsubsection}{\numberline {3.2.2}Configuratie}{20}
-\contentsline {subsection}{\numberline {3.3}Bash-script}{21}
-\contentsline {paragraph}{Script}{22}
+\contentsline {subsection}{\numberline {2.5}Frontend GPG programma's}{8}
+\contentsline {subsection}{\numberline {2.6}Werking van een GPG Frontend}{8}
+\contentsline {paragraph}{Cryptophane}{9}
+\contentsline {paragraph}{Gajim}{9}
+\contentsline {paragraph}{GPGshell}{9}
+\contentsline {paragraph}{GPA}{9}
+\contentsline {paragraph}{KGpg}{10}
+\contentsline {paragraph}{Seahorse}{10}
+\contentsline {paragraph}{Wija}{10}
+\contentsline {section}{\numberline {3}Bijlagen}{14}
+\contentsline {subsection}{\numberline {3.1}Versiebeheersysteem}{14}
+\contentsline {subsubsection}{\numberline {3.1.1}Registratie}{14}
+\contentsline {subsubsection}{\numberline {3.1.2}Configuratie}{14}
+\contentsline {subsubsection}{\numberline {3.1.3}Git commando's}{16}
+\contentsline {subsection}{\numberline {3.2}Mailserver configuratie}{17}
+\contentsline {subsubsection}{\numberline {3.2.1}Mailserver instellen}{17}
+\contentsline {subsubsection}{\numberline {3.2.2}Configuratie}{17}
+\contentsline {subsection}{\numberline {3.3}Bash-script}{18}
+\contentsline {paragraph}{Script}{19}
